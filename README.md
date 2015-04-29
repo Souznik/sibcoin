@@ -1,48 +1,40 @@
-Dash Core staging tree 0.11
+SibCore staging tree
 ===============================
-
-http://www.dashpay.io
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
 Copyright (c) 2014-2015 Dash Core Developers
 
+Copyright (c) 2014-2015 Sib Core Developers
 
-What is Dash?
+
+What is Sibcoin?
 ----------------
 
-Dash is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Dash uses peer-to-peer technology
+Sibcoin is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Sibcoin uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Dash Core is the name of open
+are carried out collectively by the network. SibCore is the name of open
 source software which enables the use of this currency.
-
-For more information, as well as an immediately useable, binary version of
-the Dash Core software, see http://www.dashpay.io/downloads.
 
 
 License
 -------
 
-Dash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+SibCore is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 
 Building process
 -----------------
 
-**compiling Dash from git**
+**compiling Sibcoin from git**
 
 Use the autogen script to prepare the build environment.
 
     ./autogen.sh
     ./configure
     make
-
-**precompiled binaries**
-
-Precompiled binaries are available at github, see
-https://github.com/dashproject/dash-binaries
 
 Always verify the signatures and checksums.
 
