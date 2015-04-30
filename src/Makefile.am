@@ -205,15 +205,15 @@ sibcoind_LDADD = \
 if ENABLE_WALLET
 sibcoind_LDADD += libdash_wallet.a
 endif
-dashd_SOURCES = dashd.cpp
+sibcoind_SOURCES = dashd.cpp
 #
 
 if TARGET_WINDOWS
-dashd_SOURCES += dashd-res.rc
+sibcoind_SOURCES += dashd-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-dashd_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
+sibcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
 # dash-cli binary #
 sibcoin_cli_LDADD = \
