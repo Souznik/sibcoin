@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "dash-config.h"
+#include "sibcoin-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -71,7 +71,7 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
     /* Display elements init */
     
     /* Theme selector */
-    ui->theme->addItem(QString("DASH-blue"), QVariant("drkblue"));
+    //ui->theme->addItem(QString("DASH-blue"), QVariant("drkblue"));
     ui->theme->addItem(QString("DASH-traditional"), QVariant("trad"));
 
     

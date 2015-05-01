@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2015 The SibCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +34,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Dash cannot be compiled without assertions."
+# error "Sibcoin cannot be compiled without assertions."
 #endif
 
 //
@@ -82,7 +83,7 @@ void EraseOrphansFor(NodeId peer);
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "DarkCoin Signed Message:\n";
+const string strMessageMagic = "SibCoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1497,8 +1498,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
     return ret;
 }
 
-static const int64_t nTargetTimespan = 24 * 60 * 60; // Dash: 1 day
-static const int64_t nTargetSpacing = 2.5 * 60; // Dash: 2.5 minutes
+static const int64_t nTargetTimespan = 24 * 60 * 60; // Sibcoin: 1 day
+static const int64_t nTargetSpacing = 2.5 * 60; // Sibcoin: 2.5 minutes
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 576 blocks
 
 //
@@ -2158,7 +2159,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("dash-scriptch");
+    RenameThread("sibcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 

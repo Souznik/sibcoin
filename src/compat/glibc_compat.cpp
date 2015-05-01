@@ -1,4 +1,4 @@
-#include "dash-config.h"
+#include "sibcoin-config.h"
 #include <cstddef>
 #include <sys/select.h>
 

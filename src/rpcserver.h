@@ -63,7 +63,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * Sibcoin RPC command dispatcher.
  */
 class CRPCTable
 {

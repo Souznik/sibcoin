@@ -1955,10 +1955,10 @@ int CDarksendPool::GetDenominations(const std::vector<CTxOut>& vout){
 
     // Function returns as follows:
     //
-    // bit 0 - 100DRK+1 ( bit on if present )
-    // bit 1 - 10DRK+1
-    // bit 2 - 1DRK+1
-    // bit 3 - .1DRK+1
+    // bit 0 - 100SIB+1 ( bit on if present )
+    // bit 1 - 10SIB+1
+    // bit 2 - 1SIB+1
+    // bit 3 - .1SIB+1
 
     return denom;
 }
@@ -2194,7 +2194,7 @@ void ThreadCheckDarkSendPool()
     if(fLiteMode) return; //disable all Darksend/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("dash-darksend");
+    RenameThread("sibcoin-darksend");
 
     unsigned int c = 0;
     std::string errorMessage;

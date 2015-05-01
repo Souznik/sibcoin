@@ -5,7 +5,7 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS = dash-qt
+bin_PROGRAMS = sibcoin-qt
 noinst_LIBRARIES = libdashqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
@@ -317,22 +317,22 @@ $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
 # dash-qt binary #
-dash_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+sibcoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-dash_qt_SOURCES = dash.cpp
+sibcoin_qt_SOURCES = dash.cpp
 if TARGET_DARWIN
-  dash_qt_SOURCES += $(BITCOIN_MM)
+  sibcoin_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  dash_qt_SOURCES += $(DASH_RC)
+  sibcoin_qt_SOURCES += $(DASH_RC)
 endif
-dash_qt_LDADD = libdashqt.a $(LIBBITCOIN_SERVER)
+sibcoin_qt_LDADD = libdashqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-dash_qt_LDADD += $(LIBBITCOIN_WALLET)
+sibcoin_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
-dash_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+sibcoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
-dash_qt_LDFLAGS = $(QT_LDFLAGS)
+sibcoin_qt_LDFLAGS = $(QT_LDFLAGS)
 
 # forms/foo.h -> forms/ui_foo.h
 QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))

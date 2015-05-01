@@ -105,7 +105,7 @@ void CActiveMasternode::ManageStatus()
                 return;
             }
 
-            /* donations are not supported in dash.conf */
+            /* donations are not supported in sibcoin.conf */
             CScript donationAddress = CScript();
             int donationPercentage = 0;
 

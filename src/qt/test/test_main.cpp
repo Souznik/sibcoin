@@ -1,6 +1,6 @@
-#include "dash-config.h"
+#include "sibcoin-config.h"
 #if defined(HAVE_CONFIG_H)
-#include "dash-config.h"
+#include "sibcoin-config.h"
 #endif
 
 #ifdef ENABLE_WALLET
