@@ -1,9 +1,11 @@
-Dash 0.11.x BETA
+Sibcoin 0.11.x BETA
 ====================
 
 Copyright (c) 2009-2015 Bitcoin Developers
 
 Copyright (c) 2014-2015 Dash Developers
+
+Copyright (c) 2015 Sibcoin Developers
 
 
 Setup
