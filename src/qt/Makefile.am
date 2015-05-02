@@ -12,34 +12,34 @@ DIST_SUBDIRS = . test
 
 # dash qt core #
 QT_TS = \
-  locale/dash_bar.ts \
-  locale/dash_bg.ts \
-  locale/dash_ca.ts \
-  locale/dash_cmn.ts \
-  locale/dash_cs.ts \
-  locale/dash_da.ts \
-  locale/dash_de.ts \
-  locale/dash_el.ts \
-  locale/dash_en.ts \
-  locale/dash_eo.ts \
-  locale/dash_es.ts \
-  locale/dash_fi.ts \
-  locale/dash_fr.ts \
-  locale/dash_hu_HU.ts \
-  locale/dash_it.ts \
-  locale/dash_lv_LV.ts \
-  locale/dash_nb.ts \
-  locale/dash_nl.ts \
-  locale/dash_pl.ts \
-  locale/dash_pt.ts \
-  locale/dash_pt_BR.ts \
-  locale/dash_ru.ts \
-  locale/dash_sk.ts \
-  locale/dash_sv.ts \
-  locale/dash_tr.ts \
-  locale/dash_vi.ts \
-  locale/dash_zh_CN.ts \
-  locale/dash_zh_HK.ts
+  locale/sibcoin_bar.ts \
+  locale/sibcoin_bg.ts \
+  locale/sibcoin_ca.ts \
+  locale/sibcoin_cmn.ts \
+  locale/sibcoin_cs.ts \
+  locale/sibcoin_da.ts \
+  locale/sibcoin_de.ts \
+  locale/sibcoin_el.ts \
+  locale/sibcoin_en.ts \
+  locale/sibcoin_eo.ts \
+  locale/sibcoin_es.ts \
+  locale/sibcoin_fi.ts \
+  locale/sibcoin_fr.ts \
+  locale/sibcoin_hu_HU.ts \
+  locale/sibcoin_it.ts \
+  locale/sibcoin_lv_LV.ts \
+  locale/sibcoin_nb.ts \
+  locale/sibcoin_nl.ts \
+  locale/sibcoin_pl.ts \
+  locale/sibcoin_pt.ts \
+  locale/sibcoin_pt_BR.ts \
+  locale/sibcoin_ru.ts \
+  locale/sibcoin_sk.ts \
+  locale/sibcoin_sv.ts \
+  locale/sibcoin_tr.ts \
+  locale/sibcoin_vi.ts \
+  locale/sibcoin_zh_CN.ts \
+  locale/sibcoin_zh_HK.ts
 
 QT_FORMS_UI = \
   forms/aboutdialog.ui \
@@ -117,8 +117,8 @@ QT_MOC = \
   overviewpage.moc \
   rpcconsole.moc
 
-QT_QRC_CPP = qrc_dash.cpp
-QT_QRC = dash.qrc
+QT_QRC_CPP = qrc_sibcoin.cpp
+QT_QRC = sibcoin.qrc
 
 PROTOBUF_CC = paymentrequest.pb.cc
 PROTOBUF_H = paymentrequest.pb.h
@@ -299,7 +299,7 @@ RES_CSS = \
   
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-DASH_RC = res/dash-qt-res.rc
+SIBCOIN_RC = res/sibcoin-qt-res.rc
 
 libdashqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -316,7 +316,7 @@ BUILT_SOURCES = $(nodist_libdashqt_a_SOURCES)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# dash-qt binary #
+# sibcoin-qt binary #
 sibcoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
 sibcoin_qt_SOURCES = dash.cpp
@@ -324,7 +324,7 @@ if TARGET_DARWIN
   sibcoin_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  sibcoin_qt_SOURCES += $(DASH_RC)
+  sibcoin_qt_SOURCES += $(SIBCOIN_RC)
 endif
 sibcoin_qt_LDADD = libdashqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
@@ -343,12 +343,12 @@ QT_QM=$(QT_TS:.ts=.qm)
 .PHONY: FORCE
 .SECONDARY: $(QT_QM)
 
-dashstrings.cpp: FORCE
-	$(MAKE) -C $(top_srcdir)/src qt/dashstrings.cpp
+sibcoinstrings.cpp: FORCE
+	$(MAKE) -C $(top_srcdir)/src qt/sibcoinstrings.cpp
 
-translate: dashstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: sibcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/dash_en.ts
+	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/sibcoin_en.ts
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(RES_CSS) $(PROTOBUF_H)
 	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name dash -o $(abs_builddir)/$@ $< || \
