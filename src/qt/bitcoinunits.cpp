@@ -19,7 +19,6 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
     unitlist.append(SIB);
     unitlist.append(mSIB);
     unitlist.append(uSIB);
-    unitlist.append(duffs);
     return unitlist;
 }
 
@@ -30,7 +29,6 @@ bool BitcoinUnits::valid(int unit)
     case SIB:
     case mSIB:
     case uSIB:
-    case duffs:
         return true;
     default:
         return false;
@@ -46,7 +44,6 @@ QString BitcoinUnits::name(int unit)
             case SIB: return QString("SIB");
             case mSIB: return QString("mSIB");
             case uSIB: return QString::fromUtf8("μSIB");
-            case duffs: return QString::fromUtf8("duffs");
             default: return QString("???");
         }
     }
@@ -57,7 +54,6 @@ QString BitcoinUnits::name(int unit)
             case SIB: return QString("tSIB");
             case mSIB: return QString("mtSIB");
             case uSIB: return QString::fromUtf8("μtSIB");
-            case duffs: return QString::fromUtf8("tduffs");
             default: return QString("???");
         }
     }
@@ -72,7 +68,6 @@ QString BitcoinUnits::description(int unit)
             case SIB: return QString("Sib");
             case mSIB: return QString("Milli-Sib (1 / 1,000)");
             case uSIB: return QString("Micro-Sib (1 / 1,000,000)");
-            case duffs: return QString("Ten Nano-Sib (1 / 100,000,000)");
             default: return QString("???");
         }
     }
@@ -83,7 +78,6 @@ QString BitcoinUnits::description(int unit)
             case SIB: return QString("TestSibs");
             case mSIB: return QString("Milli-TestSib (1 / 1,000)");
             case uSIB: return QString("Micro-TestSib (1 / 1,000,000)");
-            case duffs: return QString("Ten Nano-TestSib (1 / 100,000,000)");
             default: return QString("???");
         }
     }
@@ -96,7 +90,6 @@ qint64 BitcoinUnits::factor(int unit)
     case SIB:  return 100000000;
     case mSIB: return 100000;
     case uSIB: return 100;
-    case duffs: return 1;
     default:   return 100000000;
     }
 }
@@ -108,7 +101,6 @@ qint64 BitcoinUnits::maxAmount(int unit)
     case SIB:  return Q_INT64_C(21000000);
     case mSIB: return Q_INT64_C(21000000000);
     case uSIB: return Q_INT64_C(21000000000000);
-    case duffs: return Q_INT64_C(2100000000000000);
     default:   return 0;
     }
 }
@@ -120,7 +112,6 @@ int BitcoinUnits::amountDigits(int unit)
     case SIB: return 8; // 21,000,000 (# digits, without commas)
     case mSIB: return 11; // 21,000,000,000
     case uSIB: return 14; // 21,000,000,000,000
-    case duffs: return 16; // 2,100,000,000,000,000
     default: return 0;
     }
 }
@@ -132,7 +123,6 @@ int BitcoinUnits::decimals(int unit)
     case SIB: return 8;
     case mSIB: return 5;
     case uSIB: return 2;
-    case duffs: return 0;
     default: return 0;
     }
 }

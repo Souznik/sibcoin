@@ -29,8 +29,7 @@ public:
     {
         SIB,
         mSIB,
-        uSIB,
-        duffs
+        uSIB
     };
 
     //! @name Static API
