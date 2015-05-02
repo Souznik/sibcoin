@@ -10,36 +10,42 @@ noinst_LIBRARIES = libdashqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
 
-# dash qt core #
+# sibcoin qt core #
+#QT_TS = \
+#  locale/sibcoin_bar.ts \
+#  locale/sibcoin_bg.ts \
+#  locale/sibcoin_ca.ts \
+#  locale/sibcoin_cmn.ts \
+#  locale/sibcoin_cs.ts \
+#  locale/sibcoin_da.ts \
+#  locale/sibcoin_de.ts \
+#  locale/sibcoin_el.ts \
+#  locale/sibcoin_en.ts \
+#  locale/sibcoin_eo.ts \
+#  locale/sibcoin_es.ts \
+#  locale/sibcoin_fi.ts \
+#  locale/sibcoin_fr.ts \
+#  locale/sibcoin_hu_HU.ts \
+#  locale/sibcoin_it.ts \
+#  locale/sibcoin_lv_LV.ts \
+#  locale/sibcoin_nb.ts \
+#  locale/sibcoin_nl.ts \
+#  locale/sibcoin_pl.ts \
+#  locale/sibcoin_pt.ts \
+#  locale/sibcoin_pt_BR.ts \
+#  locale/sibcoin_ru.ts \
+#  locale/sibcoin_sk.ts \
+#  locale/sibcoin_sv.ts \
+#  locale/sibcoin_tr.ts \
+#  locale/sibcoin_vi.ts \
+#  locale/sibcoin_zh_CN.ts \
+#  locale/sibcoin_zh_HK.ts
+
 QT_TS = \
-  locale/sibcoin_bar.ts \
-  locale/sibcoin_bg.ts \
-  locale/sibcoin_ca.ts \
-  locale/sibcoin_cmn.ts \
-  locale/sibcoin_cs.ts \
-  locale/sibcoin_da.ts \
-  locale/sibcoin_de.ts \
-  locale/sibcoin_el.ts \
   locale/sibcoin_en.ts \
-  locale/sibcoin_eo.ts \
-  locale/sibcoin_es.ts \
-  locale/sibcoin_fi.ts \
-  locale/sibcoin_fr.ts \
-  locale/sibcoin_hu_HU.ts \
-  locale/sibcoin_it.ts \
-  locale/sibcoin_lv_LV.ts \
-  locale/sibcoin_nb.ts \
-  locale/sibcoin_nl.ts \
-  locale/sibcoin_pl.ts \
-  locale/sibcoin_pt.ts \
-  locale/sibcoin_pt_BR.ts \
-  locale/sibcoin_ru.ts \
-  locale/sibcoin_sk.ts \
-  locale/sibcoin_sv.ts \
-  locale/sibcoin_tr.ts \
-  locale/sibcoin_vi.ts \
-  locale/sibcoin_zh_CN.ts \
-  locale/sibcoin_zh_HK.ts
+  locale/sibcoin_ru.ts
+
+
 
 QT_FORMS_UI = \
   forms/aboutdialog.ui \
