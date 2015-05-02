@@ -1105,7 +1105,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "Dash " + FormatFullVersion();
+        string strDesc = "Sibcoin " + FormatFullVersion();
 
         try {
             while (true) {
