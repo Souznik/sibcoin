@@ -91,3 +91,7 @@ qa/pull-tester/build-tests.sh
 
 .cproject
 .project
+/src/sibcoind
+/src/sibcoin-cli
+/src/sibcoin-config.h
+/src/sibcoin-config.h.in
