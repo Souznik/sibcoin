@@ -74,6 +74,7 @@ BITCOIN_CORE_H = \
   sph_groestl.h \
   sph_jh.h \
   sph_keccak.h \
+  sph_gost.h \
   sph_luffa.h \
   sph_shavite.h \
   sph_simd.h \
@@ -175,6 +176,7 @@ libdash_common_a_SOURCES = \
   echo.c \
   shavite.c \
   keccak.c \
+  gost.c \
   skein.c \
   spork.cpp \
   bmw.c \
