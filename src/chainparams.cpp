@@ -21,9 +21,8 @@ using namespace boost::assign;
 
 unsigned int pnSeed[] =
 {
-    0xb32b80ef, 0x807f6aeb, 0x259dfa0a, 0xa2d16323, 0x6c3dd236,
-    0xacf50584, 0x2ea2420a, 0x4e6db2c3, 0x8a80a95e, 0x340b8de5,
-    0x253b153a, 0x2e69760f, 0xb2217edd, 0x68ec1783, 0x6c3dd125,
+    0xd9b24a4c, 0x63845a45, 0x1d9541bc, 0x239541bc, 0x797a5097, 
+    0xdb676505, 0x4431b75f,
 };
 
 class CMainParams : public CChainParams {
@@ -43,7 +42,7 @@ public:
         nSubsidyHalvingInterval = 210000;
 
         // Genesis block
-        const char* pszTimestamp = "Sputnik News 29/Apr/2015 International Monetary System is Wrong and Needs to Be Reset";
+        const char* pszTimestamp = "RT.COM 08/May/2015 World marks WWII victory day";                                                        
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -54,18 +53,15 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1430659200;
+        genesis.nTime    = 1431122400;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 50183;
+        genesis.nNonce   = 1394136;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000de440d2e620e91730393bb20f33622509329c54cc9d816036c22a7a5b03"));
-        assert(genesis.hashMerkleRoot == uint256("0xfe377a569558eee27d43b18e978fe980ad9f2babdafd8ede7021195f30f3a4f7"));
+        assert(hashGenesisBlock == uint256("0x00000c492bf73490420868bc577680bfc4c60116e7e85343bc624787c21efa4c"));
+        assert(genesis.hashMerkleRoot == uint256("0x6a35812a1d2dd4ec413b7de5870c56455110ad6395ef00962e58f812da7cb4b9"));
 
         //vSeeds.push_back(CDNSSeedData("darkcoin.io", "dnsseed.darkcoin.io"));
-        //vSeeds.push_back(CDNSSeedData("darkcoin.qa", "dnsseed.darkcoin.qa"));
-        //vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
-        //vSeeds.push_back(CDNSSeedData("dashpay.io", "dnsseed.dashpay.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 63);                    // Sibcoin addresses start with 'S'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 40);                    // Sibcoin script addresses start with 'H'
@@ -123,11 +119,11 @@ public:
         strDataDir = "testnet3";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1430659800;
-        genesis.nNonce = 541389;
+        genesis.nTime = 1431129600;
+        genesis.nNonce = 2308058;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000b086c99c29eb4a8dfd18b817bab952763c7abfeebc51a640e815b9001fb"));
+        assert(hashGenesisBlock == uint256("0x00000617791d0e19f524387f67e558b2a928b670b9a3b387ae003ad7f9093017"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -162,14 +158,14 @@ public:
         pchMessageStart[3] = 0xdc;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1430659800;
+        genesis.nTime = 1431129600;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 3160562;
+        genesis.nNonce = 2106393;
         nDefaultPort = 19994;
         strDataDir = "regtest";
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000009cd389e50c66c8ac2549c78701c22ee5c366fda854c410a7c379ce6b1a3"));
+        assert(hashGenesisBlock == uint256("0x000007bfa2866f77d1f22f9da7fda73ea3c5185dc156f4f6f8b3a3caed27247e"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
