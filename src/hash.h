@@ -16,6 +16,7 @@
 #include "sph_groestl.h"
 #include "sph_jh.h"
 #include "sph_keccak.h"
+#include "sph_gost.h"
 #include "sph_skein.h"
 #include "sph_luffa.h"
 #include "sph_cubehash.h"
@@ -39,6 +40,7 @@ GLOBAL sph_bmw512_context       z_bmw;
 GLOBAL sph_groestl512_context   z_groestl;
 GLOBAL sph_jh512_context        z_jh;
 GLOBAL sph_keccak512_context    z_keccak;
+GLOBAL sph_gost512_context      z_gost;
 GLOBAL sph_skein512_context     z_skein;
 GLOBAL sph_luffa512_context     z_luffa;
 GLOBAL sph_cubehash512_context  z_cubehash;
@@ -52,6 +54,7 @@ GLOBAL sph_echo512_context      z_echo;
     sph_groestl512_init(&z_groestl); \
     sph_jh512_init(&z_jh); \
     sph_keccak512_init(&z_keccak); \
+    sph_gost512_init(&z_gost); \
     sph_skein512_init(&z_skein); \
     sph_luffa512_init(&z_luffa); \
     sph_cubehash512_init(&z_cubehash); \
@@ -65,6 +68,7 @@ GLOBAL sph_echo512_context      z_echo;
 #define ZGROESTL (memcpy(&ctx_groestl, &z_groestl, sizeof(z_groestl)))
 #define ZJH (memcpy(&ctx_jh, &z_jh, sizeof(z_jh)))
 #define ZKECCAK (memcpy(&ctx_keccak, &z_keccak, sizeof(z_keccak)))
+#define ZGOST (memcpy(&ctx_gost, &z_gost, sizeof(z_gost)))        
 #define ZSKEIN (memcpy(&ctx_skein, &z_skein, sizeof(z_skein)))
 
 /* ----------- Bitcoin Hash ------------------------------------------------- */
@@ -189,7 +193,7 @@ int HMAC_SHA512_Init(HMAC_SHA512_CTX *pctx, const void *pkey, size_t len);
 int HMAC_SHA512_Update(HMAC_SHA512_CTX *pctx, const void *pdata, size_t len);
 int HMAC_SHA512_Final(unsigned char *pmd, HMAC_SHA512_CTX *pctx);
 
-/* ----------- Dash Hash ------------------------------------------------ */
+/* ----------- Sibcoin Hash ------------------------------------------------ */
 template<typename T1>
 inline uint256 HashX11(const T1 pbegin, const T1 pend)
 
@@ -199,6 +203,7 @@ inline uint256 HashX11(const T1 pbegin, const T1 pend)
     sph_groestl512_context   ctx_groestl;
     sph_jh512_context        ctx_jh;
     sph_keccak512_context    ctx_keccak;
+    sph_gost512_context      ctx_gost;    
     sph_skein512_context     ctx_skein;
     sph_luffa512_context     ctx_luffa;
     sph_cubehash512_context  ctx_cubehash;
@@ -232,28 +237,32 @@ inline uint256 HashX11(const T1 pbegin, const T1 pend)
     sph_keccak512_init(&ctx_keccak);
     sph_keccak512 (&ctx_keccak, static_cast<const void*>(&hash[4]), 64);
     sph_keccak512_close(&ctx_keccak, static_cast<void*>(&hash[5]));
+    
+    sph_gost512_init(&ctx_gost);
+    sph_gost512 (&ctx_gost, static_cast<const void*>(&hash[5]), 64);
+    sph_gost512_close(&ctx_gost, static_cast<void*>(&hash[6]));    
 
     sph_luffa512_init(&ctx_luffa);
-    sph_luffa512 (&ctx_luffa, static_cast<void*>(&hash[5]), 64);
-    sph_luffa512_close(&ctx_luffa, static_cast<void*>(&hash[6]));
+    sph_luffa512 (&ctx_luffa, static_cast<void*>(&hash[6]), 64);
+    sph_luffa512_close(&ctx_luffa, static_cast<void*>(&hash[7]));
 
     sph_cubehash512_init(&ctx_cubehash);
-    sph_cubehash512 (&ctx_cubehash, static_cast<const void*>(&hash[6]), 64);
-    sph_cubehash512_close(&ctx_cubehash, static_cast<void*>(&hash[7]));
+    sph_cubehash512 (&ctx_cubehash, static_cast<const void*>(&hash[7]), 64);
+    sph_cubehash512_close(&ctx_cubehash, static_cast<void*>(&hash[8]));
 
     sph_shavite512_init(&ctx_shavite);
-    sph_shavite512(&ctx_shavite, static_cast<const void*>(&hash[7]), 64);
-    sph_shavite512_close(&ctx_shavite, static_cast<void*>(&hash[8]));
+    sph_shavite512(&ctx_shavite, static_cast<const void*>(&hash[8]), 64);
+    sph_shavite512_close(&ctx_shavite, static_cast<void*>(&hash[9]));
 
     sph_simd512_init(&ctx_simd);
-    sph_simd512 (&ctx_simd, static_cast<const void*>(&hash[8]), 64);
-    sph_simd512_close(&ctx_simd, static_cast<void*>(&hash[9]));
+    sph_simd512 (&ctx_simd, static_cast<const void*>(&hash[9]), 64);
+    sph_simd512_close(&ctx_simd, static_cast<void*>(&hash[10]));
 
     sph_echo512_init(&ctx_echo);
-    sph_echo512 (&ctx_echo, static_cast<const void*>(&hash[9]), 64);
-    sph_echo512_close(&ctx_echo, static_cast<void*>(&hash[10]));
+    sph_echo512 (&ctx_echo, static_cast<const void*>(&hash[10]), 64);
+    sph_echo512_close(&ctx_echo, static_cast<void*>(&hash[11]));
 
-    return hash[10].trim256();
+    return hash[11].trim256();
 }
 
 #endif
