@@ -16,11 +16,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Dash Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Dash Core developers.
+Copyright &amp;copy; YYYY The Sibcoin Core developers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="111"/>
+        <location filename="../forms/aboutdialog.ui" line="112"/>
         <source>
 This is experimental software.
 
@@ -51,8 +52,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="43"/>
-        <location filename="../utilitydialog.cpp" line="45"/>
+        <location filename="../utilitydialog.cpp" line="32"/>
+        <source>The Sibcoin Core developers</source>
+        <translation>The Sibcoin Core developers</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="44"/>
+        <location filename="../utilitydialog.cpp" line="46"/>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
@@ -1312,52 +1318,52 @@ Address: %4
         <translation>Sibcoin Core - Command-line options</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="69"/>
+        <location filename="../utilitydialog.cpp" line="70"/>
         <source>Sibcoin Core</source>
         <translation>Sibcoin Core</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="69"/>
+        <location filename="../utilitydialog.cpp" line="70"/>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="71"/>
+        <location filename="../utilitydialog.cpp" line="72"/>
         <source>Usage:</source>
         <translation>Usage:</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="72"/>
+        <location filename="../utilitydialog.cpp" line="73"/>
         <source>command-line options</source>
         <translation>command-line options</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="76"/>
+        <location filename="../utilitydialog.cpp" line="77"/>
         <source>UI options</source>
         <translation>UI options</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="77"/>
+        <location filename="../utilitydialog.cpp" line="78"/>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Choose data directory on startup (default: 0)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="78"/>
+        <location filename="../utilitydialog.cpp" line="79"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Set language, for example &quot;de_DE&quot; (default: system locale)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="79"/>
+        <location filename="../utilitydialog.cpp" line="80"/>
         <source>Start minimized</source>
         <translation>Start minimized</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="80"/>
+        <location filename="../utilitydialog.cpp" line="81"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Set SSL root certificates for payment request (default: -system-)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="81"/>
+        <location filename="../utilitydialog.cpp" line="82"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Show splash screen on startup (default: 1)</translation>
     </message>
@@ -3031,12 +3037,12 @@ https://www.transifex.com/projects/p/sibcoin/</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <location filename="../utilitydialog.cpp" line="129"/>
+        <location filename="../utilitydialog.cpp" line="130"/>
         <source>Sibcoin Core is shutting down...</source>
         <translation>Sibcoin Core is shutting down...</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="130"/>
+        <location filename="../utilitydialog.cpp" line="131"/>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Do not shut down the computer until this window disappears.</translation>
     </message>
@@ -3252,6 +3258,11 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="37"/>
+        <source>The Sibcoin Core developers</source>
+        <translation>The Sibcoin Core developers</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="38"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>

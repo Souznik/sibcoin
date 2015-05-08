@@ -9,17 +9,19 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
         <source>&lt;b&gt;Sibcoin Core&lt;/b&gt; version</source>
-        <translation>Версия &lt;b&gt;&quot;Сибирский Червонец&quot; (SIB)&lt;/b&gt;</translation>
+        <translation>Версия &lt;b&gt;&quot;Сибирский Червонец&quot;&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Dash Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Dash Core developers.
+Copyright &amp;copy; YYYY The Sibcoin Core developers.</source>
         <translation>Copyright &amp;copy; 2009-2014 Разработчики Bitcoin Core.
-Copyright &amp;copy; 2014-YYYY Разработчики Dash Core.</translation>
+Copyright &amp;copy; 2014-YYYY Разработчики Dash Core.
+Copyright &amp;copy; YYYY Разработчики Sibcoin Core.</translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="111"/>
+        <location filename="../forms/aboutdialog.ui" line="112"/>
         <source>
 This is experimental software.
 
@@ -50,8 +52,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="43"/>
-        <location filename="../utilitydialog.cpp" line="45"/>
+        <location filename="../utilitydialog.cpp" line="32"/>
+        <source>The Sibcoin Core developers</source>
+        <translation>Разработчики Sibcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="44"/>
+        <location filename="../utilitydialog.cpp" line="46"/>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
@@ -1296,52 +1303,52 @@ Address: %4
         <translation>&quot;Сибирский Червонец&quot; (SIB) - параметры командной строки</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="69"/>
+        <location filename="../utilitydialog.cpp" line="70"/>
         <source>Sibcoin Core</source>
         <translation>&quot;Сибирский Червонец&quot;(SIB)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="69"/>
+        <location filename="../utilitydialog.cpp" line="70"/>
         <source>version</source>
         <translation>версия</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="71"/>
+        <location filename="../utilitydialog.cpp" line="72"/>
         <source>Usage:</source>
         <translation>Использование:</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="72"/>
+        <location filename="../utilitydialog.cpp" line="73"/>
         <source>command-line options</source>
         <translation>параметры командной строки</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="76"/>
+        <location filename="../utilitydialog.cpp" line="77"/>
         <source>UI options</source>
         <translation>Настройки интерфейса</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="77"/>
+        <location filename="../utilitydialog.cpp" line="78"/>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Выбрать каталог данных при запуске (по умолчанию: 0)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="78"/>
+        <location filename="../utilitydialog.cpp" line="79"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Выберите язык, например &quot;ru_RU&quot; (по умолчанию: как в системе)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="79"/>
+        <location filename="../utilitydialog.cpp" line="80"/>
         <source>Start minimized</source>
         <translation>Запускать свёрнутым</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="80"/>
+        <location filename="../utilitydialog.cpp" line="81"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Указать корневые SSL-сертификаты для запроса платежа (по умолчанию: -system-)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="81"/>
+        <location filename="../utilitydialog.cpp" line="82"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Показывать заставку при запуске (по умолчанию: 1)</translation>
     </message>
@@ -3016,12 +3023,12 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <location filename="../utilitydialog.cpp" line="129"/>
+        <location filename="../utilitydialog.cpp" line="130"/>
         <source>Sibcoin Core is shutting down...</source>
         <translation>&quot;Червонец&quot; выключается...</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="130"/>
+        <location filename="../utilitydialog.cpp" line="131"/>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Не выключайте компьютер, пока это окно не исчезнет.</translation>
     </message>
@@ -3237,6 +3244,11 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="37"/>
+        <source>The Sibcoin Core developers</source>
+        <translation>Разработчики Sibcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="38"/>
         <source>[testnet]</source>
         <translation>[тестовая сеть]</translation>
     </message>
