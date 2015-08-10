@@ -83,6 +83,8 @@ private:
     QAction *usedReceivingAddressesAction;
     QAction *signMessageAction;
     QAction *verifyMessageAction;
+    QAction *genAndPrintAddressesAction;
+    QAction *loadFromPaperAction;
     QAction *aboutAction;
     QAction *receiveCoinsAction;
     QAction *optionsAction;

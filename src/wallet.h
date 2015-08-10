@@ -218,6 +218,8 @@ public:
     int64_t GetTotalValue(std::vector<CTxIn> vCoins);
 
     // keystore implementation
+    // Generate new priv key without saving 
+    CKey GeneratePrivKey();
     // Generate a new key
     CPubKey GenerateNewKey();
     // Adds a key to the store, and saves it to disk.

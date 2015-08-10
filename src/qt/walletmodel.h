@@ -137,6 +137,9 @@ public:
     qint64 getImmatureBalance() const;
     int getNumTransactions() const;
     EncryptionStatus getEncryptionStatus() const;
+    CKey generateNewKey() const;
+    bool setAddressBook(const CTxDestination& address, const string& strName, const string& strPurpose);
+
 
     // Check address for validity
     bool validateAddress(const QString &address);
