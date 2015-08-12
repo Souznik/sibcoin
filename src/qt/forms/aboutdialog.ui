@@ -23,7 +23,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../dash.qrc">:/images/about</pixmap>
+      <pixmap resource="../sibcoin.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -152,7 +152,7 @@ This product includes software developed by the OpenSSL Project for use in the O
   </layout>
  </widget>
  <resources>
-  <include location="../dash.qrc"/>
+  <include location="../sibcoin.qrc"/>
  </resources>
  <connections>
   <connection>
