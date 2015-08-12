@@ -120,7 +120,7 @@ BITCOIN_MM = \
   macnotificationhandler.mm
 
 QT_MOC = \
-  dash.moc \
+  sibcoin.moc \
   intro.moc \
   overviewpage.moc \
   rpcconsole.moc
@@ -236,7 +236,7 @@ RES_ICONS = \
 
 
 BITCOIN_QT_CPP = \
-  dash.cpp \
+  sibcoin.cpp \
   bitcoinaddressvalidator.cpp \
   bitcoinamountfield.cpp \
   bitcoingui.cpp \
@@ -329,7 +329,7 @@ $(QT_MOC_CPP): $(PROTOBUF_H)
 # sibcoin-qt binary #
 sibcoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-sibcoin_qt_SOURCES = dash.cpp
+sibcoin_qt_SOURCES = sibcoin.cpp
 if TARGET_DARWIN
   sibcoin_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -361,7 +361,7 @@ translate: sibcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(
 	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/sibcoin_en.ts
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(RES_CSS) $(PROTOBUF_H)
-	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name dash -o $(abs_builddir)/$@ $< || \
+	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name sibcoin -o $(abs_builddir)/$@ $< || \
 	  echo error: could not build $@
 	$(SED) -e '/^\*\*.*Created:/d' $@ > $@.n && mv $@{.n,}
 	$(SED) -e '/^\*\*.*by:/d' $@  > $@.n && mv $@{.n,}

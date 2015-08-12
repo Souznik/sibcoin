@@ -223,7 +223,7 @@ private:
     void startThread();
 };
 
-#include "dash.moc"
+#include "sibcoin.moc"
 
 BitcoinCore::BitcoinCore():
     QObject()
@@ -477,7 +477,7 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(dash);
+    Q_INIT_RESOURCE(sibcoin);
 
     GUIUtil::SubstituteFonts();
 
