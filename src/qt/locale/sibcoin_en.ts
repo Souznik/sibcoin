@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en">
+<TS version="2.1" language="en">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -18,7 +18,7 @@
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
 Copyright &amp;copy; 2014-YYYY The Dash Core developers.
 Copyright &amp;copy; YYYY The Sibcoin Core developers.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="112"/>
@@ -38,6 +38,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../utilitydialog.cpp" line="30"/>
         <location filename="../utilitydialog.cpp" line="31"/>
+        <location filename="../utilitydialog.cpp" line="32"/>
         <source>Copyright</source>
         <translation>Copyright</translation>
     </message>
@@ -116,72 +117,72 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>C&amp;lose</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="45"/>
+        <location filename="../addressbookpage.cpp" line="46"/>
         <source>Choose the address to send coins to</source>
         <translation>Choose the address to send coins to</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="46"/>
+        <location filename="../addressbookpage.cpp" line="47"/>
         <source>Choose the address to receive coins with</source>
         <translation>Choose the address to receive coins with</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="51"/>
+        <location filename="../addressbookpage.cpp" line="52"/>
         <source>C&amp;hoose</source>
         <translation>C&amp;hoose</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="57"/>
+        <location filename="../addressbookpage.cpp" line="58"/>
         <source>Sending addresses</source>
         <translation>Sending addresses</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="58"/>
+        <location filename="../addressbookpage.cpp" line="59"/>
         <source>Receiving addresses</source>
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="65"/>
+        <location filename="../addressbookpage.cpp" line="66"/>
         <source>These are your Sibcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>These are your Sibcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="69"/>
+        <location filename="../addressbookpage.cpp" line="70"/>
         <source>These are your Sibcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>These are your Sibcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="75"/>
+        <location filename="../addressbookpage.cpp" line="76"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copy Address</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="76"/>
+        <location filename="../addressbookpage.cpp" line="77"/>
         <source>Copy &amp;Label</source>
         <translation>Copy &amp;Label</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="77"/>
+        <location filename="../addressbookpage.cpp" line="78"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edit</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="271"/>
+        <location filename="../addressbookpage.cpp" line="272"/>
         <source>Export Address List</source>
         <translation>Export Address List</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="272"/>
+        <location filename="../addressbookpage.cpp" line="273"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="285"/>
+        <location filename="../addressbookpage.cpp" line="286"/>
         <source>Exporting Failed</source>
         <translation>Exporting Failed</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="286"/>
+        <location filename="../addressbookpage.cpp" line="287"/>
         <source>There was an error trying to save the address list to %1.</source>
         <translation>There was an error trying to save the address list to %1.</translation>
     </message>
@@ -237,120 +238,124 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>For anonymization only</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="41"/>
+        <location filename="../askpassphrasedialog.cpp" line="42"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="42"/>
+        <location filename="../askpassphrasedialog.cpp" line="43"/>
         <source>Encrypt wallet</source>
         <translation>Encrypt wallet</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="48"/>
+        <location filename="../askpassphrasedialog.cpp" line="49"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="53"/>
+        <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Unlock wallet</source>
         <translation>Unlock wallet</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="56"/>
+        <location filename="../askpassphrasedialog.cpp" line="57"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="61"/>
+        <location filename="../askpassphrasedialog.cpp" line="62"/>
         <source>Decrypt wallet</source>
         <translation>Decrypt wallet</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="64"/>
+        <location filename="../askpassphrasedialog.cpp" line="65"/>
         <source>Change passphrase</source>
         <translation>Change passphrase</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="65"/>
+        <location filename="../askpassphrasedialog.cpp" line="66"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Enter the old and new passphrase to the wallet.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="112"/>
+        <location filename="../askpassphrasedialog.cpp" line="113"/>
         <source>Confirm wallet encryption</source>
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="113"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIB&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIB&lt;/b&gt;!</translation>
+        <translation type="obsolete">Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIB&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="113"/>
+        <location filename="../askpassphrasedialog.cpp" line="114"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="122"/>
-        <location filename="../askpassphrasedialog.cpp" line="181"/>
+        <location filename="../askpassphrasedialog.cpp" line="114"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIBCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIBCOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="123"/>
+        <location filename="../askpassphrasedialog.cpp" line="182"/>
         <source>Wallet encrypted</source>
         <translation>Wallet encrypted</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="124"/>
+        <location filename="../askpassphrasedialog.cpp" line="125"/>
         <source>Sibcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sibcoins from being stolen by malware infecting your computer.</source>
         <translation>Sibcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sibcoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="128"/>
+        <location filename="../askpassphrasedialog.cpp" line="129"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="137"/>
-        <location filename="../askpassphrasedialog.cpp" line="144"/>
-        <location filename="../askpassphrasedialog.cpp" line="187"/>
-        <location filename="../askpassphrasedialog.cpp" line="193"/>
+        <location filename="../askpassphrasedialog.cpp" line="138"/>
+        <location filename="../askpassphrasedialog.cpp" line="145"/>
+        <location filename="../askpassphrasedialog.cpp" line="188"/>
+        <location filename="../askpassphrasedialog.cpp" line="194"/>
         <source>Wallet encryption failed</source>
         <translation>Wallet encryption failed</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="138"/>
+        <location filename="../askpassphrasedialog.cpp" line="139"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="145"/>
-        <location filename="../askpassphrasedialog.cpp" line="194"/>
+        <location filename="../askpassphrasedialog.cpp" line="146"/>
+        <location filename="../askpassphrasedialog.cpp" line="195"/>
         <source>The supplied passphrases do not match.</source>
         <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="157"/>
+        <location filename="../askpassphrasedialog.cpp" line="158"/>
         <source>Wallet unlock failed</source>
         <translation>Wallet unlock failed</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="158"/>
-        <location filename="../askpassphrasedialog.cpp" line="169"/>
-        <location filename="../askpassphrasedialog.cpp" line="188"/>
+        <location filename="../askpassphrasedialog.cpp" line="159"/>
+        <location filename="../askpassphrasedialog.cpp" line="170"/>
+        <location filename="../askpassphrasedialog.cpp" line="189"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="168"/>
+        <location filename="../askpassphrasedialog.cpp" line="169"/>
         <source>Wallet decryption failed</source>
         <translation>Wallet decryption failed</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="182"/>
+        <location filename="../askpassphrasedialog.cpp" line="183"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Wallet passphrase was successfully changed.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="230"/>
-        <location filename="../askpassphrasedialog.cpp" line="254"/>
+        <location filename="../askpassphrasedialog.cpp" line="231"/>
+        <location filename="../askpassphrasedialog.cpp" line="255"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Warning: The Caps Lock key is on!</translation>
     </message>
@@ -358,297 +363,329 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="76"/>
+        <location filename="../bitcoingui.cpp" line="80"/>
         <source>Sibcoin Core</source>
         <translation>Sibcoin Core</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="85"/>
+        <location filename="../bitcoingui.cpp" line="89"/>
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="87"/>
+        <location filename="../bitcoingui.cpp" line="91"/>
         <source>Node</source>
         <translation>Node</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="101"/>
-        <location filename="../bitcoingui.cpp" line="498"/>
+        <location filename="../bitcoingui.cpp" line="105"/>
+        <location filename="../bitcoingui.cpp" line="548"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="227"/>
+        <location filename="../bitcoingui.cpp" line="231"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="228"/>
+        <location filename="../bitcoingui.cpp" line="232"/>
         <source>Show general overview of wallet</source>
         <translation>Show general overview of wallet</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="234"/>
+        <location filename="../bitcoingui.cpp" line="242"/>
         <source>&amp;Send</source>
         <translation>&amp;Send</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="235"/>
+        <location filename="../bitcoingui.cpp" line="243"/>
         <source>Send coins to a Sibcoin address</source>
         <translation>Send coins to a Sibcoin address</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="241"/>
+        <location filename="../bitcoingui.cpp" line="253"/>
         <source>&amp;Receive</source>
         <translation>&amp;Receive</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="242"/>
+        <location filename="../bitcoingui.cpp" line="254"/>
         <source>Request payments (generates QR codes and sibcoin: URIs)</source>
         <translation>Request payments (generates QR codes and sibcoin: URIs)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="248"/>
+        <location filename="../bitcoingui.cpp" line="264"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transactions</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="249"/>
+        <location filename="../bitcoingui.cpp" line="265"/>
         <source>Browse transaction history</source>
         <translation>Browse transaction history</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="266"/>
+        <location filename="../bitcoingui.cpp" line="286"/>
         <source>E&amp;xit</source>
         <translation>E&amp;xit</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="267"/>
+        <location filename="../bitcoingui.cpp" line="287"/>
         <source>Quit application</source>
         <translation>Quit application</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="271"/>
-        <location filename="../bitcoingui.cpp" line="273"/>
+        <location filename="../bitcoingui.cpp" line="291"/>
+        <location filename="../bitcoingui.cpp" line="293"/>
         <source>&amp;About Sibcoin Core</source>
         <translation>&amp;About Sibcoin Core</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="274"/>
+        <location filename="../bitcoingui.cpp" line="294"/>
         <source>Show information about Sibcoin</source>
         <translation>Show information about Sibcoin</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="277"/>
-        <location filename="../bitcoingui.cpp" line="279"/>
+        <location filename="../bitcoingui.cpp" line="297"/>
+        <location filename="../bitcoingui.cpp" line="299"/>
         <source>About &amp;Qt</source>
         <translation>About &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="281"/>
+        <location filename="../bitcoingui.cpp" line="301"/>
         <source>Show information about Qt</source>
         <translation>Show information about Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="283"/>
+        <location filename="../bitcoingui.cpp" line="303"/>
         <source>&amp;Options...</source>
         <translation>&amp;Options...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="284"/>
+        <location filename="../bitcoingui.cpp" line="304"/>
         <source>Modify configuration options for Sibcoin</source>
         <translation>Modify configuration options for Sibcoin</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="287"/>
-        <location filename="../bitcoingui.cpp" line="289"/>
+        <location filename="../bitcoingui.cpp" line="307"/>
+        <location filename="../bitcoingui.cpp" line="309"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Show / Hide</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="290"/>
+        <location filename="../bitcoingui.cpp" line="310"/>
         <source>Show or hide the main Window</source>
         <translation>Show or hide the main Window</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="292"/>
+        <location filename="../bitcoingui.cpp" line="312"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Encrypt Wallet...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="293"/>
+        <location filename="../bitcoingui.cpp" line="313"/>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Encrypt the private keys that belong to your wallet</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="295"/>
+        <location filename="../bitcoingui.cpp" line="315"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Backup Wallet...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="296"/>
+        <location filename="../bitcoingui.cpp" line="316"/>
         <source>Backup wallet to another location</source>
         <translation>Backup wallet to another location</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="297"/>
+        <location filename="../bitcoingui.cpp" line="317"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Change Passphrase...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="298"/>
+        <location filename="../bitcoingui.cpp" line="318"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="299"/>
+        <location filename="../bitcoingui.cpp" line="319"/>
         <source>&amp;Unlock Wallet...</source>
         <translation>&amp;Unlock Wallet...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="300"/>
+        <location filename="../bitcoingui.cpp" line="320"/>
         <source>Unlock wallet</source>
         <translation>Unlock wallet</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="301"/>
+        <location filename="../bitcoingui.cpp" line="321"/>
         <source>&amp;Lock Wallet</source>
         <translation>&amp;Lock Wallet</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="302"/>
+        <location filename="../bitcoingui.cpp" line="322"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="303"/>
+        <location filename="../bitcoingui.cpp" line="323"/>
         <source>Sign messages with your Sibcoin addresses to prove you own them</source>
         <translation>Sign messages with your Sibcoin addresses to prove you own them</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="304"/>
+        <location filename="../bitcoingui.cpp" line="324"/>
+        <location filename="../bitcoingui.cpp" line="326"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="305"/>
+        <location filename="../bitcoingui.cpp" line="325"/>
+        <location filename="../bitcoingui.cpp" line="327"/>
         <source>Verify messages to ensure they were signed with specified Sibcoin addresses</source>
         <translation>Verify messages to ensure they were signed with specified Sibcoin addresses</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="307"/>
+        <location filename="../bitcoingui.cpp" line="329"/>
         <source>&amp;Information</source>
         <translation>&amp;Information</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="308"/>
+        <location filename="../bitcoingui.cpp" line="330"/>
         <source>Show diagnostic information</source>
         <translation>Show diagnostic information</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="309"/>
+        <location filename="../bitcoingui.cpp" line="331"/>
         <source>&amp;Debug console</source>
         <translation>&amp;Debug console</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="310"/>
+        <location filename="../bitcoingui.cpp" line="332"/>
         <source>Open debugging console</source>
         <translation>Open debugging console</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="311"/>
+        <location filename="../bitcoingui.cpp" line="333"/>
         <source>&amp;Network Monitor</source>
         <translation>&amp;Network Monitor</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="312"/>
+        <location filename="../bitcoingui.cpp" line="334"/>
         <source>Show network monitor</source>
         <translation>Show network monitor</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="313"/>
+        <location filename="../bitcoingui.cpp" line="335"/>
         <source>Open &amp;Configuration File</source>
-        <translation type="unfinished"></translation>
+        <translation>Open &amp;Configuration File</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="314"/>
+        <location filename="../bitcoingui.cpp" line="336"/>
         <source>Open configuration file</source>
-        <translation type="unfinished"></translation>
+        <translation>Open configuration file</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="316"/>
+        <location filename="../bitcoingui.cpp" line="337"/>
+        <source>Show Automatic &amp;Backups</source>
+        <translation>Show Automatic &amp;Backups</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="338"/>
+        <source>Show automatically created wallet backups</source>
+        <translation>Show automatically created wallet backups</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="340"/>
         <source>&amp;Sending addresses...</source>
         <translation>&amp;Sending addresses...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="317"/>
+        <location filename="../bitcoingui.cpp" line="341"/>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Show the list of used sending addresses and labels</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="318"/>
+        <location filename="../bitcoingui.cpp" line="342"/>
         <source>&amp;Receiving addresses...</source>
         <translation>&amp;Receiving addresses...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="319"/>
+        <location filename="../bitcoingui.cpp" line="343"/>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Show the list of used receiving addresses and labels</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="321"/>
+        <location filename="../bitcoingui.cpp" line="345"/>
+        <source>&amp;Print sibcoins...</source>
+        <translation>&amp;Print sibcoins...</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="346"/>
+        <source>Generate address and print</source>
+        <translation>Generate address and prin</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="348"/>
+        <source>&amp;Load sibcoins...</source>
+        <translation>&amp;Load sibcoins...</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="349"/>
+        <source>Load sibcoins from paper</source>
+        <translation>Load sibcoins from paper</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="351"/>
         <source>Open &amp;URI...</source>
         <translation>Open &amp;URI...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="322"/>
+        <location filename="../bitcoingui.cpp" line="352"/>
         <source>Open a sibcoin: URI or payment request</source>
         <translation>Open a sibcoin: URI or payment request</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="324"/>
+        <location filename="../bitcoingui.cpp" line="354"/>
         <source>&amp;Command-line options</source>
         <translation>&amp;Command-line options</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="325"/>
+        <location filename="../bitcoingui.cpp" line="355"/>
         <source>Show the Sibcoin Core help message to get a list with possible Sibcoin command-line options</source>
         <translation>Show the Sibcoin Core help message to get a list with possible Sibcoin command-line options</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="361"/>
+        <location filename="../bitcoingui.cpp" line="393"/>
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="375"/>
+        <location filename="../bitcoingui.cpp" line="409"/>
         <source>&amp;Settings</source>
         <translation>&amp;Settings</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="388"/>
+        <location filename="../bitcoingui.cpp" line="422"/>
         <source>&amp;Tools</source>
         <translation>&amp;Tools</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="395"/>
+        <location filename="../bitcoingui.cpp" line="430"/>
         <source>&amp;Help</source>
         <translation>&amp;Help</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="406"/>
+        <location filename="../bitcoingui.cpp" line="441"/>
         <source>Tabs toolbar</source>
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="493"/>
-        <location filename="../bitcoingui.cpp" line="498"/>
+        <location filename="../bitcoingui.cpp" line="543"/>
+        <location filename="../bitcoingui.cpp" line="548"/>
         <source>Sibcoin client</source>
         <translation>Sibcoin client</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="643"/>
+        <location filename="../bitcoingui.cpp" line="694"/>
         <source>%n active connection(s) to Sibcoin network</source>
         <translation>
             <numerusform>%n active connection(s) to Sibcoin network</numerusform>
@@ -656,37 +693,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="655"/>
+        <location filename="../bitcoingui.cpp" line="709"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="658"/>
+        <location filename="../bitcoingui.cpp" line="712"/>
         <source>Importing blocks from disk...</source>
         <translation>Importing blocks from disk...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="661"/>
+        <location filename="../bitcoingui.cpp" line="715"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="665"/>
+        <location filename="../bitcoingui.cpp" line="719"/>
         <source>No block source available...</source>
         <translation>No block source available...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="675"/>
+        <location filename="../bitcoingui.cpp" line="729"/>
         <source>Processed %1 blocks of transaction history.</source>
         <translation>Processed %1 blocks of transaction history.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="680"/>
+        <location filename="../bitcoingui.cpp" line="734"/>
         <source>Up to date</source>
         <translation>Up to date</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="701"/>
+        <location filename="../bitcoingui.cpp" line="755"/>
         <source>%n hour(s)</source>
         <translation>
             <numerusform>%n hour(s)</numerusform>
@@ -694,7 +731,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="705"/>
+        <location filename="../bitcoingui.cpp" line="759"/>
         <source>%n day(s)</source>
         <translation>
             <numerusform>%n day(s)</numerusform>
@@ -702,8 +739,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="709"/>
-        <location filename="../bitcoingui.cpp" line="715"/>
+        <location filename="../bitcoingui.cpp" line="763"/>
+        <location filename="../bitcoingui.cpp" line="769"/>
         <source>%n week(s)</source>
         <translation>
             <numerusform>%n week(s)</numerusform>
@@ -711,12 +748,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="715"/>
+        <location filename="../bitcoingui.cpp" line="769"/>
         <source>%1 and %2</source>
         <translation>%1 and %2</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="715"/>
+        <location filename="../bitcoingui.cpp" line="769"/>
         <source>%n year(s)</source>
         <translation>
             <numerusform>%n year(s)</numerusform>
@@ -724,57 +761,57 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="719"/>
+        <location filename="../bitcoingui.cpp" line="773"/>
         <source>%1 behind</source>
         <translation>%1 behind</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="724"/>
+        <location filename="../bitcoingui.cpp" line="778"/>
         <source>Catching up...</source>
         <translation>Catching up...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="740"/>
+        <location filename="../bitcoingui.cpp" line="794"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Last received block was generated %1 ago.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="742"/>
+        <location filename="../bitcoingui.cpp" line="796"/>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Transactions after this will not yet be visible.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="755"/>
+        <location filename="../bitcoingui.cpp" line="809"/>
         <source>Sibcoin</source>
         <translation>Sibcoin</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="769"/>
+        <location filename="../bitcoingui.cpp" line="823"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="772"/>
+        <location filename="../bitcoingui.cpp" line="826"/>
         <source>Warning</source>
         <translation>Warning</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="775"/>
+        <location filename="../bitcoingui.cpp" line="829"/>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="854"/>
+        <location filename="../bitcoingui.cpp" line="907"/>
         <source>Sent transaction</source>
         <translation>Sent transaction</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="854"/>
+        <location filename="../bitcoingui.cpp" line="907"/>
         <source>Incoming transaction</source>
         <translation>Incoming transaction</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="855"/>
+        <location filename="../bitcoingui.cpp" line="908"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -787,24 +824,23 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="926"/>
+        <location filename="../bitcoingui.cpp" line="978"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="936"/>
+        <location filename="../bitcoingui.cpp" line="988"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="946"/>
+        <location filename="../bitcoingui.cpp" line="998"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="449"/>
         <source>A fatal error occurred. Sibcoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Sibcoin can no longer continue safely and will quit.</translation>
+        <translation type="obsolete">A fatal error occurred. Sibcoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -880,7 +916,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="400"/>
         <source>(1 locked)</source>
-        <translation type="unfinished"></translation>
+        <translation>(1 locked)</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="446"/>
@@ -890,7 +926,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="451"/>
         <source>Label</source>
-        <translation type="unfinished">Label</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="456"/>
@@ -923,208 +959,208 @@ Address: %4
         <translation>Priority</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="43"/>
+        <location filename="../coincontroldialog.cpp" line="47"/>
         <source>Copy address</source>
         <translation>Copy address</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="44"/>
+        <location filename="../coincontroldialog.cpp" line="48"/>
         <source>Copy label</source>
         <translation>Copy label</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="45"/>
-        <location filename="../coincontroldialog.cpp" line="71"/>
+        <location filename="../coincontroldialog.cpp" line="49"/>
+        <location filename="../coincontroldialog.cpp" line="75"/>
         <source>Copy amount</source>
         <translation>Copy amount</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="46"/>
+        <location filename="../coincontroldialog.cpp" line="50"/>
         <source>Copy transaction ID</source>
         <translation>Copy transaction ID</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="47"/>
+        <location filename="../coincontroldialog.cpp" line="51"/>
         <source>Lock unspent</source>
         <translation>Lock unspent</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="48"/>
+        <location filename="../coincontroldialog.cpp" line="52"/>
         <source>Unlock unspent</source>
         <translation>Unlock unspent</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="70"/>
+        <location filename="../coincontroldialog.cpp" line="74"/>
         <source>Copy quantity</source>
         <translation>Copy quantity</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="72"/>
+        <location filename="../coincontroldialog.cpp" line="76"/>
         <source>Copy fee</source>
         <translation>Copy fee</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="73"/>
+        <location filename="../coincontroldialog.cpp" line="77"/>
         <source>Copy after fee</source>
         <translation>Copy after fee</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="74"/>
+        <location filename="../coincontroldialog.cpp" line="78"/>
         <source>Copy bytes</source>
         <translation>Copy bytes</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="75"/>
+        <location filename="../coincontroldialog.cpp" line="79"/>
         <source>Copy priority</source>
         <translation>Copy priority</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="76"/>
+        <location filename="../coincontroldialog.cpp" line="80"/>
         <source>Copy low output</source>
         <translation>Copy low output</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="77"/>
+        <location filename="../coincontroldialog.cpp" line="81"/>
         <source>Copy change</source>
         <translation>Copy change</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="410"/>
+        <location filename="../coincontroldialog.cpp" line="414"/>
         <source>highest</source>
         <translation>highest</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="411"/>
+        <location filename="../coincontroldialog.cpp" line="415"/>
         <source>higher</source>
         <translation>higher</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="412"/>
+        <location filename="../coincontroldialog.cpp" line="416"/>
         <source>high</source>
         <translation>high</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="413"/>
+        <location filename="../coincontroldialog.cpp" line="417"/>
         <source>medium-high</source>
         <translation>medium-high</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="759"/>
+        <location filename="../coincontroldialog.cpp" line="763"/>
         <source>n/a</source>
-        <translation type="unfinished">n/a</translation>
+        <translation>n/a</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="164"/>
-        <location filename="../coincontroldialog.cpp" line="414"/>
+        <location filename="../coincontroldialog.cpp" line="418"/>
         <source>medium</source>
         <translation>medium</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="418"/>
+        <location filename="../coincontroldialog.cpp" line="422"/>
         <source>low-medium</source>
         <translation>low-medium</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="419"/>
+        <location filename="../coincontroldialog.cpp" line="423"/>
         <source>low</source>
         <translation>low</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="420"/>
+        <location filename="../coincontroldialog.cpp" line="424"/>
         <source>lower</source>
         <translation>lower</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="421"/>
+        <location filename="../coincontroldialog.cpp" line="425"/>
         <source>lowest</source>
         <translation>lowest</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="432"/>
+        <location filename="../coincontroldialog.cpp" line="436"/>
         <source>(%1 locked)</source>
         <translation>(%1 locked)</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="464"/>
+        <location filename="../coincontroldialog.cpp" line="468"/>
         <source>none</source>
         <translation>none</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="615"/>
+        <location filename="../coincontroldialog.cpp" line="619"/>
         <source>Dust</source>
         <translation>Dust</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="615"/>
+        <location filename="../coincontroldialog.cpp" line="619"/>
         <source>yes</source>
         <translation>yes</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="244"/>
-        <location filename="../coincontroldialog.cpp" line="615"/>
+        <location filename="../coincontroldialog.cpp" line="619"/>
         <source>no</source>
         <translation>no</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="625"/>
+        <location filename="../coincontroldialog.cpp" line="629"/>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>This label turns red, if the transaction size is greater than 1000 bytes.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="626"/>
-        <location filename="../coincontroldialog.cpp" line="631"/>
+        <location filename="../coincontroldialog.cpp" line="630"/>
+        <location filename="../coincontroldialog.cpp" line="635"/>
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>This means a fee of at least %1 per kB is required.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="627"/>
+        <location filename="../coincontroldialog.cpp" line="631"/>
         <source>Can vary +/- 1 byte per input.</source>
         <translation>Can vary +/- 1 byte per input.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="629"/>
+        <location filename="../coincontroldialog.cpp" line="633"/>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Transactions with higher priority are more likely to get included into a block.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="630"/>
+        <location filename="../coincontroldialog.cpp" line="634"/>
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
         <translation>This label turns red, if the priority is smaller than &quot;medium&quot;.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="633"/>
+        <location filename="../coincontroldialog.cpp" line="637"/>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>This label turns red, if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="634"/>
         <location filename="../coincontroldialog.cpp" line="638"/>
+        <location filename="../coincontroldialog.cpp" line="642"/>
         <source>This means a fee of at least %1 is required.</source>
         <translation>This means a fee of at least %1 is required.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="635"/>
+        <location filename="../coincontroldialog.cpp" line="639"/>
         <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
         <translation>Amounts below 0.546 times the minimum relay fee are shown as dust.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="637"/>
+        <location filename="../coincontroldialog.cpp" line="641"/>
         <source>This label turns red, if the change is smaller than %1.</source>
         <translation>This label turns red, if the change is smaller than %1.</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="680"/>
-        <location filename="../coincontroldialog.cpp" line="741"/>
+        <location filename="../coincontroldialog.cpp" line="684"/>
+        <location filename="../coincontroldialog.cpp" line="745"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="734"/>
+        <location filename="../coincontroldialog.cpp" line="738"/>
         <source>change from %1 (%2)</source>
         <translation>change from %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="735"/>
+        <location filename="../coincontroldialog.cpp" line="739"/>
         <source>(change)</source>
         <translation>(change)</translation>
     </message>
@@ -1158,13 +1194,36 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="78"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 SIB</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 SIB</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="91"/>
+        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../forms/darksendconfig.ui" line="117"/>
+        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../forms/darksendconfig.ui" line="130"/>
+        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../forms/darksendconfig.ui" line="156"/>
+        <source>0.1 DASH per 1000 DASH you anonymize.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use 2 separate masternodes to mix funds up to 1000 SIB</source>
+        <translation type="obsolete">Use 2 separate masternodes to mix funds up to 1000 SIB</translation>
+    </message>
+    <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 SIB</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 SIB</translation>
+        <translation type="obsolete">Use 8 separate masternodes to mix funds up to 1000 SIB</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="104"/>
@@ -1172,19 +1231,16 @@ Address: %4
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <location filename="../forms/darksendconfig.ui" line="117"/>
         <source>This option is the quickest and will cost about ~0.025 SIB to anonymize 1000 SIB</source>
-        <translation>This option is the quickest and will cost about ~0.025 SIB to anonymize 1000 SIB</translation>
+        <translation type="obsolete">This option is the quickest and will cost about ~0.025 SIB to anonymize 1000 SIB</translation>
     </message>
     <message>
-        <location filename="../forms/darksendconfig.ui" line="130"/>
         <source>This option is moderately fast and will cost about 0.05 SIB to anonymize 1000 SIB</source>
-        <translation>This option is moderately fast and will cost about 0.05 SIB to anonymize 1000 SIB</translation>
+        <translation type="obsolete">This option is moderately fast and will cost about 0.05 SIB to anonymize 1000 SIB</translation>
     </message>
     <message>
-        <location filename="../forms/darksendconfig.ui" line="156"/>
         <source>0.1 SIB per 1000 SIB you anonymize.</source>
-        <translation>0.1 SIB per 1000 SIB you anonymize.</translation>
+        <translation type="obsolete">0.1 SIB per 1000 SIB you anonymize.</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="143"/>
@@ -1242,42 +1298,42 @@ Address: %4
         <translation>The address associated with this address list entry. This can only be modified for sending addresses.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="29"/>
+        <location filename="../editaddressdialog.cpp" line="30"/>
         <source>New receiving address</source>
         <translation>New receiving address</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="33"/>
+        <location filename="../editaddressdialog.cpp" line="34"/>
         <source>New sending address</source>
         <translation>New sending address</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="36"/>
+        <location filename="../editaddressdialog.cpp" line="37"/>
         <source>Edit receiving address</source>
         <translation>Edit receiving address</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="40"/>
+        <location filename="../editaddressdialog.cpp" line="41"/>
         <source>Edit sending address</source>
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="111"/>
+        <location filename="../editaddressdialog.cpp" line="112"/>
         <source>The entered address &quot;%1&quot; is not a valid Sibcoin address.</source>
         <translation>The entered address &quot;%1&quot; is not a valid Sibcoin address.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="116"/>
+        <location filename="../editaddressdialog.cpp" line="117"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>The entered address &quot;%1&quot; is already in the address book.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="121"/>
+        <location filename="../editaddressdialog.cpp" line="122"/>
         <source>Could not unlock wallet.</source>
         <translation>Could not unlock wallet.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="126"/>
+        <location filename="../editaddressdialog.cpp" line="127"/>
         <source>New key generation failed.</source>
         <translation>New key generation failed.</translation>
     </message>
@@ -1285,29 +1341,123 @@ Address: %4
 <context>
     <name>FreespaceChecker</name>
     <message>
-        <location filename="../intro.cpp" line="69"/>
+        <location filename="../intro.cpp" line="70"/>
         <source>A new data directory will be created.</source>
         <translation>A new data directory will be created.</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="91"/>
+        <location filename="../intro.cpp" line="92"/>
         <source>name</source>
         <translation>name</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="93"/>
+        <location filename="../intro.cpp" line="94"/>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation>Directory already exists. Add %1 if you intend to create a new directory here.</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="96"/>
+        <location filename="../intro.cpp" line="97"/>
         <source>Path already exists, and is not a directory.</source>
         <translation>Path already exists, and is not a directory.</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="103"/>
+        <location filename="../intro.cpp" line="104"/>
         <source>Cannot create data directory here.</source>
         <translation>Cannot create data directory here.</translation>
+    </message>
+</context>
+<context>
+    <name>GenAndPrintDialog</name>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="26"/>
+        <source>Passphrase Dialog</source>
+        <translation>Passphrase Dialog</translation>
+    </message>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="47"/>
+        <source>Enter passphrase</source>
+        <translation>Enter passphrase</translation>
+    </message>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="61"/>
+        <source>New passphrase</source>
+        <translation>New passphrase</translation>
+    </message>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="75"/>
+        <source>Repeat new passphrase</source>
+        <translation>Repeat new passphrase</translation>
+    </message>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="109"/>
+        <source>Generate addresses and print QR codes</source>
+        <translation>Generate addresses and print QR codes</translation>
+    </message>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="115"/>
+        <source>&amp;Print</source>
+        <translation>&amp;Print</translation>
+    </message>
+    <message>
+        <location filename="../forms/genandprintdialog.ui" line="126"/>
+        <source>Import</source>
+        <translation>Import</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="55"/>
+        <source>Export key pair</source>
+        <translation>Export key pair</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="57"/>
+        <source>Account name</source>
+        <translation>Account name</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="58"/>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="59"/>
+        <source>Repeat password</source>
+        <translation>Repeat password</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="60"/>
+        <source>Enter account and passphrase to the encrypt private key</source>
+        <translation>Enter account and passphrase to the encrypt private key</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="63"/>
+        <source>Import private key</source>
+        <translation>Import private key</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="65"/>
+        <source>Private key</source>
+        <translation>Private key</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="66"/>
+        <source>Key password</source>
+        <translation>Key password</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="69"/>
+        <source>Enter private key and passphrase</source>
+        <translation>Enter private key and passphrase</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="271"/>
+        <source>New key</source>
+        <translation>New key</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="408"/>
+        <location filename="../genandprintdialog.cpp" line="432"/>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Warning: The Caps Lock key is on!</translation>
     </message>
 </context>
 <context>
@@ -1401,27 +1551,27 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="185"/>
+        <location filename="../intro.cpp" line="186"/>
         <source>Sibcoin</source>
         <translation>Sibcoin</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="186"/>
+        <location filename="../intro.cpp" line="187"/>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation>Error: Specified data directory &quot;%1&quot; can not be created.</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="210"/>
+        <location filename="../intro.cpp" line="211"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="219"/>
+        <location filename="../intro.cpp" line="220"/>
         <source>GB of free space available</source>
         <translation>GB of free space available</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="222"/>
+        <location filename="../intro.cpp" line="223"/>
         <source>(of %1GB needed)</source>
         <translation>(of %1GB needed)</translation>
     </message>
@@ -1449,7 +1599,7 @@ Address: %4
         <translation>Select payment request file</translation>
     </message>
     <message>
-        <location filename="../openuridialog.cpp" line="48"/>
+        <location filename="../openuridialog.cpp" line="49"/>
         <source>Select payment request file to open</source>
         <translation>Select payment request file to open</translation>
     </message>
@@ -1497,255 +1647,260 @@ Address: %4
         <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="138"/>
+        <location filename="../forms/optionsdialog.ui" line="147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting determines the amount of individual masternodes that an input will be anonymized through. More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting determines the amount of individual masternodes that an input will be anonymized through. More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="141"/>
+        <location filename="../forms/optionsdialog.ui" line="150"/>
         <source>Darksend rounds to use</source>
         <translation>Darksend rounds to use</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="165"/>
+        <location filename="../forms/optionsdialog.ui" line="174"/>
         <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="180"/>
+        <location filename="../forms/optionsdialog.ui" line="189"/>
         <source>Amount of Sibcoin to keep anonymized</source>
         <translation>Amount of Sibcoin to keep anonymized</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="206"/>
+        <location filename="../forms/optionsdialog.ui" line="215"/>
         <source>W&amp;allet</source>
         <translation>W&amp;allet</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="212"/>
+        <location filename="../forms/optionsdialog.ui" line="221"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="227"/>
+        <location filename="../forms/optionsdialog.ui" line="236"/>
         <source>Pay transaction &amp;fee</source>
         <translation>Pay transaction &amp;fee</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="271"/>
+        <location filename="../forms/optionsdialog.ui" line="280"/>
         <source>Expert</source>
         <translation>Expert</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="277"/>
+        <location filename="../forms/optionsdialog.ui" line="286"/>
         <source>Whether to show coin control features or not.</source>
         <translation>Whether to show coin control features or not.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="280"/>
+        <location filename="../forms/optionsdialog.ui" line="289"/>
         <source>Enable coin &amp;control features</source>
         <translation>Enable coin &amp;control features</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="287"/>
+        <location filename="../forms/optionsdialog.ui" line="296"/>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="290"/>
+        <location filename="../forms/optionsdialog.ui" line="299"/>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Spend unconfirmed change</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="301"/>
+        <location filename="../forms/optionsdialog.ui" line="310"/>
         <source>&amp;Network</source>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="307"/>
+        <location filename="../forms/optionsdialog.ui" line="316"/>
         <source>Automatically open the Sibcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatically open the Sibcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="310"/>
+        <location filename="../forms/optionsdialog.ui" line="319"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="317"/>
+        <location filename="../forms/optionsdialog.ui" line="326"/>
         <source>Connect to the Sibcoin network through a SOCKS proxy.</source>
         <translation>Connect to the Sibcoin network through a SOCKS proxy.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="320"/>
+        <location filename="../forms/optionsdialog.ui" line="329"/>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
         <translation>&amp;Connect through SOCKS proxy (default proxy):</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="329"/>
+        <location filename="../forms/optionsdialog.ui" line="338"/>
         <source>Proxy &amp;IP:</source>
         <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="354"/>
+        <location filename="../forms/optionsdialog.ui" line="363"/>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="361"/>
+        <location filename="../forms/optionsdialog.ui" line="370"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="386"/>
+        <location filename="../forms/optionsdialog.ui" line="395"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Port of the proxy (e.g. 9050)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="393"/>
+        <location filename="../forms/optionsdialog.ui" line="402"/>
         <source>SOCKS &amp;Version:</source>
         <translation>SOCKS &amp;Version:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="406"/>
+        <location filename="../forms/optionsdialog.ui" line="415"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
         <translation>SOCKS version of the proxy (e.g. 5)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="442"/>
+        <location filename="../forms/optionsdialog.ui" line="451"/>
         <source>&amp;Window</source>
         <translation>&amp;Window</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="448"/>
+        <location filename="../forms/optionsdialog.ui" line="457"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Show only a tray icon after minimizing the window.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="451"/>
+        <location filename="../forms/optionsdialog.ui" line="460"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimize to the tray instead of the taskbar</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="458"/>
+        <location filename="../forms/optionsdialog.ui" line="467"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="461"/>
+        <location filename="../forms/optionsdialog.ui" line="470"/>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimize on close</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="482"/>
+        <location filename="../forms/optionsdialog.ui" line="491"/>
         <source>&amp;Display</source>
         <translation>&amp;Display</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="490"/>
+        <location filename="../forms/optionsdialog.ui" line="499"/>
         <source>User Interface &amp;language:</source>
         <translation>User Interface &amp;language:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="503"/>
+        <location filename="../forms/optionsdialog.ui" line="512"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Sibcoin.</source>
         <translation>The user interface language can be set here. This setting will take effect after restarting Sibcoin.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="524"/>
+        <location filename="../forms/optionsdialog.ui" line="533"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/sibcoin/</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="550"/>
+        <location filename="../forms/optionsdialog.ui" line="552"/>
+        <source>User Interface Theme:</source>
+        <translation>User Interface Theme:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="573"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unit to show amounts in:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="563"/>
+        <location filename="../forms/optionsdialog.ui" line="586"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Choose the default subdivision unit to show in the interface and when sending coins.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="572"/>
+        <location filename="../forms/optionsdialog.ui" line="595"/>
         <source>Whether to show Sibcoin addresses in the transaction list or not.</source>
         <translation>Whether to show Sibcoin addresses in the transaction list or not.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="575"/>
+        <location filename="../forms/optionsdialog.ui" line="598"/>
         <source>&amp;Display addresses in transaction list</source>
         <translation>&amp;Display addresses in transaction list</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="584"/>
-        <location filename="../forms/optionsdialog.ui" line="597"/>
+        <location filename="../forms/optionsdialog.ui" line="607"/>
+        <location filename="../forms/optionsdialog.ui" line="620"/>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="587"/>
+        <location filename="../forms/optionsdialog.ui" line="610"/>
         <source>Third party transaction URLs</source>
         <translation>Third party transaction URLs</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="628"/>
+        <location filename="../forms/optionsdialog.ui" line="651"/>
         <source>Active command-line options that override above options:</source>
         <translation>Active command-line options that override above options:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="671"/>
+        <location filename="../forms/optionsdialog.ui" line="694"/>
         <source>Reset all client options to default.</source>
         <translation>Reset all client options to default.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="674"/>
+        <location filename="../forms/optionsdialog.ui" line="697"/>
         <source>&amp;Reset Options</source>
         <translation>&amp;Reset Options</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="735"/>
+        <location filename="../forms/optionsdialog.ui" line="758"/>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="742"/>
+        <location filename="../forms/optionsdialog.ui" line="765"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancel</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="73"/>
+        <location filename="../optionsdialog.cpp" line="80"/>
         <source>default</source>
         <translation>default</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="134"/>
+        <location filename="../optionsdialog.cpp" line="141"/>
         <source>none</source>
         <translation>none</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="222"/>
+        <location filename="../optionsdialog.cpp" line="231"/>
         <source>Confirm options reset</source>
         <translation>Confirm options reset</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="223"/>
-        <location filename="../optionsdialog.cpp" line="253"/>
+        <location filename="../optionsdialog.cpp" line="232"/>
+        <location filename="../optionsdialog.cpp" line="262"/>
         <source>Client restart required to activate changes.</source>
         <translation>Client restart required to activate changes.</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="223"/>
+        <location filename="../optionsdialog.cpp" line="232"/>
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation>Client will be shutdown, do you want to proceed?</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="257"/>
+        <location filename="../optionsdialog.cpp" line="266"/>
         <source>This change would require a client restart.</source>
         <translation>This change would require a client restart.</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="291"/>
+        <location filename="../optionsdialog.cpp" line="300"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>The supplied proxy address is invalid.</translation>
     </message>
@@ -1764,8 +1919,8 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="70"/>
-        <location filename="../forms/overviewpage.ui" line="953"/>
-        <location filename="../forms/overviewpage.ui" line="1021"/>
+        <location filename="../forms/overviewpage.ui" line="959"/>
+        <location filename="../forms/overviewpage.ui" line="1027"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Sibcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Sibcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
@@ -1810,261 +1965,275 @@ https://www.transifex.com/projects/p/sibcoin/</source>
         <translation>Your current total balance</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="302"/>
+        <location filename="../forms/overviewpage.ui" line="308"/>
         <source>Status:</source>
         <translation>Status:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="309"/>
+        <location filename="../forms/overviewpage.ui" line="315"/>
         <source>Enabled/Disabled</source>
         <translation>Enabled/Disabled</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="316"/>
+        <location filename="../forms/overviewpage.ui" line="322"/>
         <source>Completion:</source>
         <translation>Completion:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="336"/>
+        <location filename="../forms/overviewpage.ui" line="342"/>
         <source>Darksend Balance:</source>
         <translation>Darksend Balance:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="349"/>
+        <location filename="../forms/overviewpage.ui" line="355"/>
         <source>0 SIB</source>
         <translation>0 SIB</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="356"/>
+        <location filename="../forms/overviewpage.ui" line="362"/>
         <source>Amount and Rounds:</source>
         <translation>Amount and Rounds:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="363"/>
+        <location filename="../forms/overviewpage.ui" line="369"/>
         <source>0 SIB / 0 Rounds</source>
         <translation>0 SIB / 0 Rounds</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="370"/>
+        <location filename="../forms/overviewpage.ui" line="376"/>
         <source>Submitted Denom:</source>
         <translation>Submitted Denom:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="377"/>
+        <location filename="../forms/overviewpage.ui" line="383"/>
         <source>The denominations you submitted to the Masternode. To mix, other users must submit the exact same denominations.</source>
         <translation>The denominations you submitted to the Masternode. To mix, other users must submit the exact same denominations.</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="380"/>
+        <location filename="../forms/overviewpage.ui" line="386"/>
         <source>n/a</source>
         <translation>n/a</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="946"/>
-        <location filename="../overviewpage.cpp" line="453"/>
-        <location filename="../overviewpage.cpp" line="467"/>
-        <location filename="../overviewpage.cpp" line="481"/>
+        <location filename="../forms/overviewpage.ui" line="952"/>
+        <location filename="../overviewpage.cpp" line="458"/>
+        <location filename="../overviewpage.cpp" line="472"/>
+        <location filename="../overviewpage.cpp" line="486"/>
         <source>Darksend</source>
         <translation>Darksend</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="839"/>
+        <location filename="../forms/overviewpage.ui" line="845"/>
         <source>Start/Stop Mixing</source>
         <translation>Start/Stop Mixing</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="871"/>
+        <location filename="../forms/overviewpage.ui" line="877"/>
         <source>(Last Message)</source>
         <translation>(Last Message)</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="896"/>
+        <location filename="../forms/overviewpage.ui" line="902"/>
         <source>Try to manually submit a Darksend request.</source>
         <translation>Try to manually submit a Darksend request.</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="899"/>
+        <location filename="../forms/overviewpage.ui" line="905"/>
         <source>Try Mix</source>
         <translation>Try Mix</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="918"/>
+        <location filename="../forms/overviewpage.ui" line="924"/>
         <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
         <translation>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="924"/>
+        <location filename="../forms/overviewpage.ui" line="930"/>
         <source>Reset</source>
         <translation>Reset</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="1014"/>
+        <location filename="../forms/overviewpage.ui" line="1020"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Recent transactions&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="126"/>
-        <location filename="../overviewpage.cpp" line="127"/>
         <location filename="../overviewpage.cpp" line="128"/>
+        <location filename="../overviewpage.cpp" line="129"/>
+        <location filename="../overviewpage.cpp" line="130"/>
         <source>out of sync</source>
         <translation>out of sync</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="143"/>
-        <location filename="../overviewpage.cpp" line="350"/>
+        <location filename="../overviewpage.cpp" line="145"/>
+        <location filename="../overviewpage.cpp" line="146"/>
+        <location filename="../overviewpage.cpp" line="147"/>
+        <location filename="../overviewpage.cpp" line="355"/>
         <source>Disabled</source>
         <translation>Disabled</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="146"/>
-        <location filename="../overviewpage.cpp" line="352"/>
-        <location filename="../overviewpage.cpp" line="495"/>
+        <location filename="../overviewpage.cpp" line="150"/>
+        <location filename="../overviewpage.cpp" line="357"/>
+        <location filename="../overviewpage.cpp" line="500"/>
         <source>Start Darksend Mixing</source>
         <translation>Start Darksend Mixing</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="148"/>
-        <location filename="../overviewpage.cpp" line="497"/>
+        <location filename="../overviewpage.cpp" line="152"/>
+        <location filename="../overviewpage.cpp" line="502"/>
         <source>Stop Darksend Mixing</source>
         <translation>Stop Darksend Mixing</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="270"/>
+        <location filename="../overviewpage.cpp" line="274"/>
         <source>No inputs detected</source>
         <translation>No inputs detected</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="278"/>
+        <location filename="../overviewpage.cpp" line="282"/>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to recalculate.</source>
         <translation>Found unconfirmed denominated outputs, will wait till they confirm to recalculate.</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="335"/>
+        <location filename="../overviewpage.cpp" line="340"/>
         <source>Rounds</source>
         <translation>Rounds</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="366"/>
+        <location filename="../overviewpage.cpp" line="371"/>
         <source>Enabled</source>
         <translation>Enabled</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="424"/>
+        <location filename="../overviewpage.cpp" line="399"/>
+        <location filename="../overviewpage.cpp" line="400"/>
+        <location filename="../overviewpage.cpp" line="401"/>
+        <source>Submitted to masternode, waiting for more entries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="405"/>
+        <location filename="../overviewpage.cpp" line="406"/>
+        <location filename="../overviewpage.cpp" line="407"/>
+        <source>Found enough users, signing ( waiting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="419"/>
+        <location filename="../overviewpage.cpp" line="420"/>
+        <location filename="../overviewpage.cpp" line="421"/>
+        <source>Submitted to masternode, waiting in queue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="429"/>
         <source>Last Darksend message:
 </source>
         <translation>Last Darksend message:
 </translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="377"/>
-        <location filename="../overviewpage.cpp" line="406"/>
+        <location filename="../overviewpage.cpp" line="382"/>
+        <location filename="../overviewpage.cpp" line="411"/>
         <source>Darksend is idle.</source>
         <translation>Darksend is idle.</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="381"/>
+        <location filename="../overviewpage.cpp" line="386"/>
         <source>Mixing in progress...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="387"/>
+        <location filename="../overviewpage.cpp" line="392"/>
         <source>Darksend request complete: Your transaction was accepted into the pool!</source>
         <translation>Darksend request complete: Your transaction was accepted into the pool!</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="393"/>
+        <location filename="../overviewpage.cpp" line="398"/>
         <source>Submitted following entries to masternode:</source>
         <translation>Submitted following entries to masternode:</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="394"/>
-        <location filename="../overviewpage.cpp" line="395"/>
-        <location filename="../overviewpage.cpp" line="396"/>
         <source>Submitted to masternode, Waiting for more entries</source>
-        <translation>Submitted to masternode, Waiting for more entries</translation>
+        <translation type="obsolete">Submitted to masternode, Waiting for more entries</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="399"/>
+        <location filename="../overviewpage.cpp" line="404"/>
         <source>Found enough users, signing ...</source>
         <translation>Found enough users, signing ...</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="400"/>
         <source>Found enough users, signing ( waiting. )</source>
-        <translation>Found enough users, signing ( waiting. )</translation>
+        <translation type="obsolete">Found enough users, signing ( waiting. )</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="401"/>
         <source>Found enough users, signing ( waiting.. )</source>
-        <translation>Found enough users, signing ( waiting.. )</translation>
+        <translation type="obsolete">Found enough users, signing ( waiting.. )</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="402"/>
         <source>Found enough users, signing ( waiting... )</source>
-        <translation>Found enough users, signing ( waiting... )</translation>
+        <translation type="obsolete">Found enough users, signing ( waiting... )</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="404"/>
+        <location filename="../overviewpage.cpp" line="409"/>
         <source>Transmitting final transaction.</source>
         <translation>Transmitting final transaction.</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="408"/>
+        <location filename="../overviewpage.cpp" line="413"/>
         <source>Finalizing transaction.</source>
         <translation>Finalizing transaction.</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="410"/>
+        <location filename="../overviewpage.cpp" line="415"/>
         <source>Darksend request incomplete:</source>
         <translation>Darksend request incomplete:</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="410"/>
+        <location filename="../overviewpage.cpp" line="415"/>
         <source>Will retry...</source>
         <translation>Will retry...</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="412"/>
+        <location filename="../overviewpage.cpp" line="417"/>
         <source>Darksend request complete:</source>
         <translation>Darksend request complete:</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="414"/>
         <source>Submitted to masternode, waiting in queue .</source>
-        <translation>Submitted to masternode, waiting in queue .</translation>
+        <translation type="obsolete">Submitted to masternode, waiting in queue .</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="415"/>
         <source>Submitted to masternode, waiting in queue ..</source>
-        <translation>Submitted to masternode, waiting in queue ..</translation>
+        <translation type="obsolete">Submitted to masternode, waiting in queue ..</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="416"/>
         <source>Submitted to masternode, waiting in queue ...</source>
-        <translation>Submitted to masternode, waiting in queue ...</translation>
+        <translation type="obsolete">Submitted to masternode, waiting in queue ...</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="418"/>
+        <location filename="../overviewpage.cpp" line="423"/>
         <source>Unknown state:</source>
         <translation>Unknown state:</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="432"/>
+        <location filename="../overviewpage.cpp" line="437"/>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="454"/>
+        <location filename="../overviewpage.cpp" line="459"/>
         <source>Darksend was successfully reset.</source>
         <translation>Darksend was successfully reset.</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="468"/>
+        <location filename="../overviewpage.cpp" line="473"/>
         <source>Darksend requires at least %1 to use.</source>
         <translation>Darksend requires at least %1 to use.</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="482"/>
+        <location filename="../overviewpage.cpp" line="487"/>
         <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
         <translation>Wallet is locked and user declined to unlock. Disabling Darksend.</translation>
     </message>
@@ -2166,40 +2335,31 @@ https://www.transifex.com/projects/p/sibcoin/</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dash.cpp" line="525"/>
-        <location filename="../dash.cpp" line="532"/>
-        <location filename="../dash.cpp" line="539"/>
-        <location filename="../dash.cpp" line="552"/>
         <source>Sibcoin</source>
-        <translation>Sibcoin</translation>
+        <translation type="obsolete">Sibcoin</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="526"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation>Error: Specified data directory &quot;%1&quot; does not exist.</translation>
+        <translation type="obsolete">Error: Specified data directory &quot;%1&quot; does not exist.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Error: Cannot parse configuration file: %1. Only use key=value syntax.</translation>
+        <translation type="obsolete">Error: Cannot parse configuration file: %1. Only use key=value syntax.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="540"/>
         <source>Error reading masternode configuration file: %1</source>
-        <translation>Error reading masternode configuration file: %1</translation>
+        <translation type="obsolete">Error reading masternode configuration file: %1</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="552"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
-        <translation>Error: Invalid combination of -regtest and -testnet.</translation>
+        <translation type="obsolete">Error: Invalid combination of -regtest and -testnet.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="612"/>
         <source>Sibcoin Core didn&apos;t yet exit safely...</source>
-        <translation>Sibcoin Core didn&apos;t yet exit safely...</translation>
+        <translation type="obsolete">Sibcoin Core didn&apos;t yet exit safely...</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="101"/>
+        <location filename="../guiutil.cpp" line="102"/>
         <source>Enter a Sibcoin address (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
         <translation>Enter a Sibcoin address (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
@@ -2360,63 +2520,63 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="550"/>
-        <location filename="../rpcconsole.cpp" line="367"/>
+        <location filename="../rpcconsole.cpp" line="368"/>
         <source>In:</source>
         <translation>In:</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="630"/>
-        <location filename="../rpcconsole.cpp" line="368"/>
+        <location filename="../rpcconsole.cpp" line="369"/>
         <source>Out:</source>
         <translation>Out:</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="333"/>
+        <location filename="../rpcconsole.cpp" line="334"/>
         <source>Welcome to the Sibcoin RPC console.</source>
         <translation>Welcome to the Sibcoin RPC console.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="334"/>
+        <location filename="../rpcconsole.cpp" line="335"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="335"/>
+        <location filename="../rpcconsole.cpp" line="336"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="474"/>
+        <location filename="../rpcconsole.cpp" line="475"/>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="476"/>
+        <location filename="../rpcconsole.cpp" line="477"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="478"/>
+        <location filename="../rpcconsole.cpp" line="479"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="480"/>
+        <location filename="../rpcconsole.cpp" line="481"/>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="487"/>
+        <location filename="../rpcconsole.cpp" line="488"/>
         <source>%1 m</source>
         <translation>%1 m</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="492"/>
+        <location filename="../rpcconsole.cpp" line="493"/>
         <source>%1 h</source>
         <translation>%1 h</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="494"/>
+        <location filename="../rpcconsole.cpp" line="495"/>
         <source>%1 h %2 m</source>
         <translation>%1 h %2 m</translation>
     </message>
@@ -2637,9 +2797,9 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="14"/>
-        <location filename="../sendcoinsdialog.cpp" line="429"/>
-        <location filename="../sendcoinsdialog.cpp" line="521"/>
+        <location filename="../sendcoinsdialog.cpp" line="439"/>
         <location filename="../sendcoinsdialog.cpp" line="531"/>
+        <location filename="../sendcoinsdialog.cpp" line="541"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -2686,7 +2846,7 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="353"/>
         <source>medium</source>
-        <translation type="unfinished">medium</translation>
+        <translation>medium</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="388"/>
@@ -2701,7 +2861,7 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="433"/>
         <source>no</source>
-        <translation type="unfinished">no</translation>
+        <translation>no</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="468"/>
@@ -2754,183 +2914,183 @@ https://www.transifex.com/projects/p/sibcoin/</source>
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="752"/>
+        <location filename="../forms/sendcoinsdialog.ui" line="758"/>
         <source>Darksend</source>
         <translation>Darksend</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="771"/>
+        <location filename="../forms/sendcoinsdialog.ui" line="783"/>
         <source>InstantX</source>
         <translation>InstantX</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="778"/>
+        <location filename="../forms/sendcoinsdialog.ui" line="790"/>
         <source>Balance:</source>
         <translation>Balance:</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="53"/>
+        <location filename="../sendcoinsdialog.cpp" line="63"/>
         <source>Copy quantity</source>
         <translation>Copy quantity</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="54"/>
+        <location filename="../sendcoinsdialog.cpp" line="64"/>
         <source>Copy amount</source>
         <translation>Copy amount</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="55"/>
+        <location filename="../sendcoinsdialog.cpp" line="65"/>
         <source>Copy fee</source>
         <translation>Copy fee</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="56"/>
+        <location filename="../sendcoinsdialog.cpp" line="66"/>
         <source>Copy after fee</source>
         <translation>Copy after fee</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="57"/>
+        <location filename="../sendcoinsdialog.cpp" line="67"/>
         <source>Copy bytes</source>
         <translation>Copy bytes</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="58"/>
+        <location filename="../sendcoinsdialog.cpp" line="68"/>
         <source>Copy priority</source>
         <translation>Copy priority</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="59"/>
+        <location filename="../sendcoinsdialog.cpp" line="69"/>
         <source>Copy low output</source>
         <translation>Copy low output</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="60"/>
+        <location filename="../sendcoinsdialog.cpp" line="70"/>
         <source>Copy change</source>
         <translation>Copy change</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="145"/>
-        <location filename="../sendcoinsdialog.cpp" line="151"/>
-        <location filename="../sendcoinsdialog.cpp" line="160"/>
+        <location filename="../sendcoinsdialog.cpp" line="155"/>
+        <location filename="../sendcoinsdialog.cpp" line="161"/>
+        <location filename="../sendcoinsdialog.cpp" line="170"/>
         <source>using</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="145"/>
-        <location filename="../sendcoinsdialog.cpp" line="151"/>
-        <source>anonymous funds</source>
-        <translation type="unfinished"></translation>
+        <translation>using</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="155"/>
+        <location filename="../sendcoinsdialog.cpp" line="161"/>
+        <source>anonymous funds</source>
+        <translation>anonymous funds</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="165"/>
         <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
         <translation>(darksend requires this amount to be rounded up to the nearest %1).</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="160"/>
+        <location filename="../sendcoinsdialog.cpp" line="170"/>
         <source>any available funds (not recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>any available funds (not recommended)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="166"/>
+        <location filename="../sendcoinsdialog.cpp" line="176"/>
         <source>and InstantX</source>
-        <translation type="unfinished"></translation>
+        <translation>and InstantX</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="190"/>
-        <location filename="../sendcoinsdialog.cpp" line="195"/>
         <location filename="../sendcoinsdialog.cpp" line="200"/>
-        <location filename="../sendcoinsdialog.cpp" line="204"/>
+        <location filename="../sendcoinsdialog.cpp" line="205"/>
+        <location filename="../sendcoinsdialog.cpp" line="210"/>
+        <location filename="../sendcoinsdialog.cpp" line="214"/>
         <source>%1 to %2</source>
         <translation>%1 to %2</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="253"/>
+        <location filename="../sendcoinsdialog.cpp" line="263"/>
         <source>Are you sure you want to send?</source>
         <translation>Are you sure you want to send?</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="262"/>
+        <location filename="../sendcoinsdialog.cpp" line="272"/>
         <source>are added as transaction fee</source>
         <translation>are added as transaction fee</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="276"/>
+        <location filename="../sendcoinsdialog.cpp" line="286"/>
         <source>Total Amount %1 (= %2)</source>
         <translation>Total Amount %1 (= %2)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="278"/>
+        <location filename="../sendcoinsdialog.cpp" line="288"/>
         <source>or</source>
         <translation>or</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="280"/>
+        <location filename="../sendcoinsdialog.cpp" line="290"/>
         <source>Confirm send coins</source>
         <translation>Confirm send coins</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="435"/>
+        <location filename="../sendcoinsdialog.cpp" line="445"/>
         <source>Payment request expired</source>
         <translation>Payment request expired</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="443"/>
+        <location filename="../sendcoinsdialog.cpp" line="453"/>
         <source>Invalid payment address %1</source>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="498"/>
+        <location filename="../sendcoinsdialog.cpp" line="508"/>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>The recipient address is not valid, please recheck.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="501"/>
+        <location filename="../sendcoinsdialog.cpp" line="511"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>The amount to pay must be larger than 0.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="504"/>
+        <location filename="../sendcoinsdialog.cpp" line="514"/>
         <source>The amount exceeds your balance.</source>
         <translation>The amount exceeds your balance.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="507"/>
+        <location filename="../sendcoinsdialog.cpp" line="517"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="510"/>
+        <location filename="../sendcoinsdialog.cpp" line="520"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Duplicate address found, can only send to each address once per send operation.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="513"/>
+        <location filename="../sendcoinsdialog.cpp" line="523"/>
         <source>Transaction creation failed!</source>
         <translation>Transaction creation failed!</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="517"/>
+        <location filename="../sendcoinsdialog.cpp" line="527"/>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="522"/>
+        <location filename="../sendcoinsdialog.cpp" line="532"/>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
         <translation>Error: The wallet was unlocked only to anonymize coins.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="635"/>
+        <location filename="../sendcoinsdialog.cpp" line="645"/>
         <source>Warning: Invalid Sibcoin address</source>
         <translation>Warning: Invalid Sibcoin address</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="644"/>
+        <location filename="../sendcoinsdialog.cpp" line="654"/>
         <source>Warning: Unknown change address</source>
         <translation>Warning: Unknown change address</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="655"/>
+        <location filename="../sendcoinsdialog.cpp" line="665"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
@@ -2948,9 +3108,13 @@ https://www.transifex.com/projects/p/sibcoin/</source>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="54"/>
         <source>The address to send the payment to (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>The address to send the payment to (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <translation type="obsolete">The address to send the payment to (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="54"/>
+        <source>The address to send the payment to (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>The address to send the payment to (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="61"/>
@@ -3065,9 +3229,13 @@ https://www.transifex.com/projects/p/sibcoin/</source>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="48"/>
         <source>The address to sign the message with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>The address to sign the message with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <translation type="obsolete">The address to sign the message with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+    </message>
+    <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="48"/>
+        <source>The address to sign the message with (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>The address to sign the message with (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="55"/>
@@ -3139,8 +3307,12 @@ https://www.transifex.com/projects/p/sibcoin/</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="258"/>
+        <source>The address the message was signed with (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>The address the message was signed with (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+    </message>
+    <message>
         <source>The address the message was signed with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>The address the message was signed with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <translation type="obsolete">The address the message was signed with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
@@ -3158,78 +3330,78 @@ https://www.transifex.com/projects/p/sibcoin/</source>
         <translation>Reset all verify message fields</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="30"/>
+        <location filename="../signverifymessagedialog.cpp" line="31"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Click &quot;Sign Message&quot; to generate signature</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="31"/>
+        <location filename="../signverifymessagedialog.cpp" line="32"/>
         <source>Enter a Sibcoin address (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
         <translation>Enter a Sibcoin address (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="114"/>
-        <location filename="../signverifymessagedialog.cpp" line="194"/>
+        <location filename="../signverifymessagedialog.cpp" line="115"/>
+        <location filename="../signverifymessagedialog.cpp" line="195"/>
         <source>The entered address is invalid.</source>
         <translation>The entered address is invalid.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="114"/>
-        <location filename="../signverifymessagedialog.cpp" line="122"/>
-        <location filename="../signverifymessagedialog.cpp" line="194"/>
-        <location filename="../signverifymessagedialog.cpp" line="202"/>
+        <location filename="../signverifymessagedialog.cpp" line="115"/>
+        <location filename="../signverifymessagedialog.cpp" line="123"/>
+        <location filename="../signverifymessagedialog.cpp" line="195"/>
+        <location filename="../signverifymessagedialog.cpp" line="203"/>
         <source>Please check the address and try again.</source>
         <translation>Please check the address and try again.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="122"/>
-        <location filename="../signverifymessagedialog.cpp" line="202"/>
+        <location filename="../signverifymessagedialog.cpp" line="123"/>
+        <location filename="../signverifymessagedialog.cpp" line="203"/>
         <source>The entered address does not refer to a key.</source>
         <translation>The entered address does not refer to a key.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="130"/>
+        <location filename="../signverifymessagedialog.cpp" line="131"/>
         <source>Wallet unlock was cancelled.</source>
         <translation>Wallet unlock was cancelled.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="138"/>
+        <location filename="../signverifymessagedialog.cpp" line="139"/>
         <source>Private key for the entered address is not available.</source>
         <translation>Private key for the entered address is not available.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="150"/>
+        <location filename="../signverifymessagedialog.cpp" line="151"/>
         <source>Message signing failed.</source>
         <translation>Message signing failed.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="155"/>
+        <location filename="../signverifymessagedialog.cpp" line="156"/>
         <source>Message signed.</source>
         <translation>Message signed.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="213"/>
+        <location filename="../signverifymessagedialog.cpp" line="214"/>
         <source>The signature could not be decoded.</source>
         <translation>The signature could not be decoded.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="213"/>
-        <location filename="../signverifymessagedialog.cpp" line="226"/>
+        <location filename="../signverifymessagedialog.cpp" line="214"/>
+        <location filename="../signverifymessagedialog.cpp" line="227"/>
         <source>Please check the signature and try again.</source>
         <translation>Please check the signature and try again.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="226"/>
+        <location filename="../signverifymessagedialog.cpp" line="227"/>
         <source>The signature did not match the message digest.</source>
         <translation>The signature did not match the message digest.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="233"/>
+        <location filename="../signverifymessagedialog.cpp" line="234"/>
         <source>Message verification failed.</source>
         <translation>Message verification failed.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="238"/>
+        <location filename="../signverifymessagedialog.cpp" line="239"/>
         <source>Message verified.</source>
         <translation>Message verified.</translation>
     </message>
@@ -3902,13 +4074,13 @@ https://www.transifex.com/projects/p/sibcoin/</source>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="271"/>
-        <location filename="../walletmodel.cpp" line="285"/>
+        <location filename="../walletmodel.cpp" line="270"/>
+        <location filename="../walletmodel.cpp" line="284"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
     <message numerus="yes">
-        <location filename="../walletmodel.cpp" line="271"/>
+        <location filename="../walletmodel.cpp" line="270"/>
         <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n SIB.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -3919,42 +4091,42 @@ https://www.transifex.com/projects/p/sibcoin/</source>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="44"/>
+        <location filename="../walletview.cpp" line="45"/>
         <source>&amp;Export</source>
         <translation>&amp;Export</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="45"/>
+        <location filename="../walletview.cpp" line="46"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="231"/>
+        <location filename="../walletview.cpp" line="232"/>
         <source>Backup Wallet</source>
         <translation>Backup Wallet</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="232"/>
+        <location filename="../walletview.cpp" line="233"/>
         <source>Wallet Data (*.dat)</source>
         <translation>Wallet Data (*.dat)</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="238"/>
+        <location filename="../walletview.cpp" line="239"/>
         <source>Backup Failed</source>
         <translation>Backup Failed</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="238"/>
+        <location filename="../walletview.cpp" line="239"/>
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation>There was an error trying to save the wallet data to %1.</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="242"/>
+        <location filename="../walletview.cpp" line="243"/>
         <source>Backup Successful</source>
         <translation>Backup Successful</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="242"/>
+        <location filename="../walletview.cpp" line="243"/>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>The wallet data was successfully saved to %1.</translation>
     </message>
@@ -3962,7 +4134,6 @@ https://www.transifex.com/projects/p/sibcoin/</source>
 <context>
     <name>sibcoin-core</name>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="17"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -3974,7 +4145,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Sibcoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, you must set a rpcpassword in the configuration file:
+        <translation type="obsolete">%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=sibcoinrpc
@@ -3987,1347 +4158,1072 @@ for example: alertnotify=echo %%s | mail -s &quot;Sibcoin Alert&quot; admin@foo.
 </translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="29"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+        <translation type="obsolete">Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="32"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>An error occurred while setting up the RPC port %u for listening on IPv4: %s</translation>
+        <translation type="obsolete">An error occurred while setting up the RPC port %u for listening on IPv4: %s</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="34"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</translation>
+        <translation type="obsolete">An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="37"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
+        <translation type="obsolete">Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="40"/>
         <source>Cannot obtain a lock on data directory %s. Sibcoin Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Sibcoin Core is probably already running.</translation>
+        <translation type="obsolete">Cannot obtain a lock on data directory %s. Sibcoin Core is probably already running.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="43"/>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
-        <translation>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</translation>
+        <translation type="obsolete">Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="46"/>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
+        <translation type="obsolete">Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="49"/>
         <source>Disable all Masternode and Darksend related functionality (0-1, default: 0)</source>
-        <translation>Disable all Masternode and Darksend related functionality (0-1, default: 0)</translation>
+        <translation type="obsolete">Disable all Masternode and Darksend related functionality (0-1, default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="51"/>
         <source>Enable instantx, show confirmations for locked transactions (bool, default: true)</source>
-        <translation>Enable instantx, show confirmations for locked transactions (bool, default: true)</translation>
+        <translation type="obsolete">Enable instantx, show confirmations for locked transactions (bool, default: true)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="54"/>
         <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)</source>
-        <translation>Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)</translation>
+        <translation type="obsolete">Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="57"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</translation>
+        <translation type="obsolete">Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="61"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</translation>
+        <translation type="obsolete">Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="64"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Error: Listening for incoming connections failed (listen returned error %s)</translation>
+        <translation type="obsolete">Error: Listening for incoming connections failed (listen returned error %s)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="66"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+        <translation type="obsolete">Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="70"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</translation>
+        <translation type="obsolete">Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="73"/>
         <source>Error: Wallet unlocked for anonymization only, unable to create transaction.</source>
-        <translation>Error: Wallet unlocked for anonymization only, unable to create transaction.</translation>
+        <translation type="obsolete">Error: Wallet unlocked for anonymization only, unable to create transaction.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="75"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
+        <translation type="obsolete">Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="78"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
+        <translation type="obsolete">Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="81"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
+        <translation type="obsolete">Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="84"/>
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
-        <translation>Fees smaller than this are considered zero fee (for transaction creation) (default:</translation>
+        <translation type="obsolete">Fees smaller than this are considered zero fee (for transaction creation) (default:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="87"/>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
-        <translation>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</translation>
+        <translation type="obsolete">Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="90"/>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Found unconfirmed denominated outputs, will wait till they confirm to continue.</translation>
+        <translation type="obsolete">Found unconfirmed denominated outputs, will wait till they confirm to continue.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="93"/>
         <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
-        <translation>How thorough the block verification of -checkblocks is (0-4, default: 3)</translation>
+        <translation type="obsolete">How thorough the block verification of -checkblocks is (0-4, default: 3)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="95"/>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>In this mode -genproclimit controls how many blocks are generated immediately.</translation>
+        <translation type="obsolete">In this mode -genproclimit controls how many blocks are generated immediately.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="98"/>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
+        <translation type="obsolete">InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="101"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9998 or testnet: 19998)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 9998 or testnet: 19998)</translation>
+        <translation type="obsolete">Listen for JSON-RPC connections on &lt;port&gt; (default: 9998 or testnet: 19998)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="103"/>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Name to construct url for KeePass entry that stores the wallet passphrase</translation>
+        <translation type="obsolete">Name to construct url for KeePass entry that stores the wallet passphrase</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="105"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
+        <translation type="obsolete">Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="108"/>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</translation>
+        <translation type="obsolete">Output debugging information (default: 0, supplying &lt;category&gt; is optional)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="110"/>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
+        <translation type="obsolete">Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="114"/>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
+        <translation type="obsolete">Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="117"/>
         <source>Set external address:port to get to this masternode (example: address:port)</source>
-        <translation>Set external address:port to get to this masternode (example: address:port)</translation>
+        <translation type="obsolete">Set external address:port to get to this masternode (example: address:port)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="119"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
+        <translation type="obsolete">Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="121"/>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
+        <translation type="obsolete">Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="124"/>
         <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
-        <translation>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</translation>
+        <translation type="obsolete">Set the processor limit for when generation is on (-1 = unlimited, default: -1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="127"/>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: 1)</source>
-        <translation>Show N confirmations for a successfully locked transaction (0-9999, default: 1)</translation>
+        <translation type="obsolete">Show N confirmations for a successfully locked transaction (0-9999, default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="130"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
+        <translation type="obsolete">This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="133"/>
         <source>Unable to bind to %s on this computer. Sibcoin Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Sibcoin Core is probably already running.</translation>
+        <translation type="obsolete">Unable to bind to %s on this computer. Sibcoin Core is probably already running.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="136"/>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Unable to locate enough Darksend denominated funds for this transaction.</translation>
+        <translation type="obsolete">Unable to locate enough Darksend denominated funds for this transaction.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="138"/>
         <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 SIB.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 SIB.</translation>
+        <translation type="obsolete">Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 SIB.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="141"/>
         <source>Unable to locate enough Darksend non-denominated funds for this transaction.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction.</translation>
+        <translation type="obsolete">Unable to locate enough Darksend non-denominated funds for this transaction.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="143"/>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
-        <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</translation>
+        <translation type="obsolete">Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="146"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
+        <translation type="obsolete">Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="149"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Sibcoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Sibcoin will not work properly.</translation>
+        <translation type="obsolete">Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Sibcoin will not work properly.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="152"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
+        <translation type="obsolete">Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="155"/>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
+        <translation type="obsolete">Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="158"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
+        <translation type="obsolete">Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="161"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
+        <translation type="obsolete">Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="165"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>You must set rpcpassword=&lt;password&gt; in the configuration file:
+        <translation type="obsolete">You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="170"/>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
+        <translation type="obsolete">You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="173"/>
         <source>(default: 1)</source>
-        <translation>(default: 1)</translation>
+        <translation type="obsolete">(default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="174"/>
         <source>(default: wallet.dat)</source>
-        <translation>(default: wallet.dat)</translation>
+        <translation type="obsolete">(default: wallet.dat)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="175"/>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; can be:</translation>
+        <translation type="obsolete">&lt;category&gt; can be:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="176"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accept command line and JSON-RPC commands</translation>
+        <translation type="obsolete">Accept command line and JSON-RPC commands</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="177"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
+        <translation type="obsolete">Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="178"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Add a node to connect to and attempt to keep the connection open</translation>
+        <translation type="obsolete">Add a node to connect to and attempt to keep the connection open</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="179"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
+        <translation type="obsolete">Allow DNS lookups for -addnode, -seednode and -connect</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="180"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Allow JSON-RPC connections from specified IP address</translation>
+        <translation type="obsolete">Allow JSON-RPC connections from specified IP address</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="181"/>
         <source>Already have that input.</source>
-        <translation>Already have that input.</translation>
+        <translation type="obsolete">Already have that input.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="182"/>
         <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation>Always query for peer addresses via DNS lookup (default: 0)</translation>
+        <translation type="obsolete">Always query for peer addresses via DNS lookup (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="183"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
+        <translation type="obsolete">Attempt to recover private keys from a corrupt wallet.dat</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="184"/>
         <source>Block creation options:</source>
-        <translation>Block creation options:</translation>
+        <translation type="obsolete">Block creation options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="185"/>
         <source>Can&apos;t denominate: no compatible inputs left.</source>
-        <translation>Can&apos;t denominate: no compatible inputs left.</translation>
+        <translation type="obsolete">Can&apos;t denominate: no compatible inputs left.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="186"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Cannot downgrade wallet</translation>
+        <translation type="obsolete">Cannot downgrade wallet</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="187"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
+        <translation type="obsolete">Cannot resolve -bind address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="188"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -externalip address: &apos;%s&apos;</translation>
+        <translation type="obsolete">Cannot resolve -externalip address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="189"/>
         <source>Cannot write default address</source>
-        <translation>Cannot write default address</translation>
+        <translation type="obsolete">Cannot write default address</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="190"/>
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
-        <translation>Clear list of wallet transactions (diagnostic tool; implies -rescan)</translation>
+        <translation type="obsolete">Clear list of wallet transactions (diagnostic tool; implies -rescan)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="191"/>
         <source>Collateral is not valid.</source>
-        <translation>Collateral is not valid.</translation>
+        <translation type="obsolete">Collateral is not valid.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="192"/>
         <source>Collateral not valid.</source>
-        <translation>Collateral not valid.</translation>
+        <translation type="obsolete">Collateral not valid.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="193"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Connect only to the specified node(s)</translation>
+        <translation type="obsolete">Connect only to the specified node(s)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="194"/>
         <source>Connect through SOCKS proxy</source>
-        <translation>Connect through SOCKS proxy</translation>
+        <translation type="obsolete">Connect through SOCKS proxy</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="195"/>
         <source>Connect to JSON-RPC on &lt;port&gt; (default: 9998 or testnet: 19998)</source>
-        <translation>Connect to JSON-RPC on &lt;port&gt; (default: 9998 or testnet: 19998)</translation>
+        <translation type="obsolete">Connect to JSON-RPC on &lt;port&gt; (default: 9998 or testnet: 19998)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="196"/>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</source>
-        <translation>Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</translation>
+        <translation type="obsolete">Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="197"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
+        <translation type="obsolete">Connect to a node to retrieve peer addresses, and disconnect</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="198"/>
         <source>Connection options:</source>
-        <translation>Connection options:</translation>
+        <translation type="obsolete">Connection options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="199"/>
         <source>Corrupted block database detected</source>
-        <translation>Corrupted block database detected</translation>
+        <translation type="obsolete">Corrupted block database detected</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="200"/>
         <source>Sibcoin Core Daemon</source>
-        <translation>Sibcoin Core Daemon</translation>
+        <translation type="obsolete">Sibcoin Core Daemon</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="201"/>
         <source>Sibcoin Core RPC client version</source>
-        <translation>Sibcoin Core RPC client version</translation>
+        <translation type="obsolete">Sibcoin Core RPC client version</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="202"/>
         <source>Darksend is disabled.</source>
-        <translation>Darksend is disabled.</translation>
+        <translation type="obsolete">Darksend is disabled.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="203"/>
         <source>Darksend options:</source>
-        <translation>Darksend options:</translation>
+        <translation type="obsolete">Darksend options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="204"/>
         <source>Debugging/Testing options:</source>
-        <translation>Debugging/Testing options:</translation>
+        <translation type="obsolete">Debugging/Testing options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="205"/>
         <source>Disable safemode, override a real safe mode event (default: 0)</source>
-        <translation>Disable safemode, override a real safe mode event (default: 0)</translation>
+        <translation type="obsolete">Disable safemode, override a real safe mode event (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="206"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
+        <translation type="obsolete">Discover own IP address (default: 1 when listening and no -externalip)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="207"/>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Do not load the wallet and disable wallet RPC calls</translation>
+        <translation type="obsolete">Do not load the wallet and disable wallet RPC calls</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="208"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Do you want to rebuild the block database now?</translation>
+        <translation type="obsolete">Do you want to rebuild the block database now?</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="209"/>
         <source>Done loading</source>
-        <translation>Done loading</translation>
+        <translation type="obsolete">Done loading</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="210"/>
-        <source>Downgrading and trying again.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../sibcoinstrings.cpp" line="211"/>
         <source>Enable the client to act as a masternode (0-1, default: 0)</source>
-        <translation>Enable the client to act as a masternode (0-1, default: 0)</translation>
+        <translation type="obsolete">Enable the client to act as a masternode (0-1, default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="212"/>
         <source>Entries are full.</source>
-        <translation>Entries are full.</translation>
+        <translation type="obsolete">Entries are full.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="213"/>
         <source>Error connecting to masternode.</source>
-        <translation>Error connecting to masternode.</translation>
+        <translation type="obsolete">Error connecting to masternode.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="214"/>
         <source>Error initializing block database</source>
-        <translation>Error initializing block database</translation>
+        <translation type="obsolete">Error initializing block database</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="215"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Error initializing wallet database environment %s!</translation>
+        <translation type="obsolete">Error initializing wallet database environment %s!</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="216"/>
         <source>Error loading block database</source>
-        <translation>Error loading block database</translation>
+        <translation type="obsolete">Error loading block database</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="217"/>
         <source>Error loading wallet.dat</source>
-        <translation>Error loading wallet.dat</translation>
+        <translation type="obsolete">Error loading wallet.dat</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="218"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error loading wallet.dat: Wallet corrupted</translation>
+        <translation type="obsolete">Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="219"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Sibcoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Sibcoin</translation>
+        <translation type="obsolete">Error loading wallet.dat: Wallet requires newer version of Sibcoin</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="220"/>
         <source>Error opening block database</source>
-        <translation>Error opening block database</translation>
+        <translation type="obsolete">Error opening block database</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="221"/>
         <source>Error reading from database, shutting down.</source>
-        <translation>Error reading from database, shutting down.</translation>
+        <translation type="obsolete">Error reading from database, shutting down.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="222"/>
         <source>Error recovering public key.</source>
-        <translation>Error recovering public key.</translation>
+        <translation type="obsolete">Error recovering public key.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="223"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation type="obsolete">Error</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="224"/>
         <source>Error: Disk space is low!</source>
-        <translation>Error: Disk space is low!</translation>
+        <translation type="obsolete">Error: Disk space is low!</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="225"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Error: Wallet locked, unable to create transaction!</translation>
+        <translation type="obsolete">Error: Wallet locked, unable to create transaction!</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="226"/>
         <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Error: You already have pending entries in the Darksend pool</translation>
+        <translation type="obsolete">Error: You already have pending entries in the Darksend pool</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="227"/>
         <source>Error: system error: </source>
-        <translation>Error: system error: </translation>
+        <translation type="obsolete">Error: system error: </translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="228"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
+        <translation type="obsolete">Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="229"/>
         <source>Failed to read block info</source>
-        <translation>Failed to read block info</translation>
+        <translation type="obsolete">Failed to read block info</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="230"/>
         <source>Failed to read block</source>
-        <translation>Failed to read block</translation>
+        <translation type="obsolete">Failed to read block</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="231"/>
         <source>Failed to sync block index</source>
-        <translation>Failed to sync block index</translation>
+        <translation type="obsolete">Failed to sync block index</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="232"/>
         <source>Failed to write block index</source>
-        <translation>Failed to write block index</translation>
+        <translation type="obsolete">Failed to write block index</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="233"/>
         <source>Failed to write block info</source>
-        <translation>Failed to write block info</translation>
+        <translation type="obsolete">Failed to write block info</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="234"/>
         <source>Failed to write block</source>
-        <translation>Failed to write block</translation>
+        <translation type="obsolete">Failed to write block</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="235"/>
         <source>Failed to write file info</source>
-        <translation>Failed to write file info</translation>
+        <translation type="obsolete">Failed to write file info</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="236"/>
         <source>Failed to write to coin database</source>
-        <translation>Failed to write to coin database</translation>
+        <translation type="obsolete">Failed to write to coin database</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="237"/>
         <source>Failed to write transaction index</source>
-        <translation>Failed to write transaction index</translation>
+        <translation type="obsolete">Failed to write transaction index</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="238"/>
         <source>Failed to write undo data</source>
-        <translation>Failed to write undo data</translation>
+        <translation type="obsolete">Failed to write undo data</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="239"/>
         <source>Fee per kB to add to transactions you send</source>
-        <translation>Fee per kB to add to transactions you send</translation>
+        <translation type="obsolete">Fee per kB to add to transactions you send</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="240"/>
         <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
-        <translation>Fees smaller than this are considered zero fee (for relaying) (default:</translation>
+        <translation type="obsolete">Fees smaller than this are considered zero fee (for relaying) (default:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="241"/>
         <source>Force safe mode (default: 0)</source>
-        <translation>Force safe mode (default: 0)</translation>
+        <translation type="obsolete">Force safe mode (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="242"/>
         <source>Generate coins (default: 0)</source>
-        <translation>Generate coins (default: 0)</translation>
+        <translation type="obsolete">Generate coins (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="243"/>
         <source>Get help for a command</source>
-        <translation>Get help for a command</translation>
+        <translation type="obsolete">Get help for a command</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="244"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>How many blocks to check at startup (default: 288, 0 = all)</translation>
+        <translation type="obsolete">How many blocks to check at startup (default: 288, 0 = all)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="245"/>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
+        <translation type="obsolete">If &lt;category&gt; is not supplied, output all debugging information.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="246"/>
         <source>Ignore masternodes less than version (example: 70050; default : 0)</source>
-        <translation>Ignore masternodes less than version (example: 70050; default : 0)</translation>
+        <translation type="obsolete">Ignore masternodes less than version (example: 70050; default : 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="247"/>
         <source>Importing...</source>
-        <translation>Importing...</translation>
+        <translation type="obsolete">Importing...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="248"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Imports blocks from external blk000??.dat file</translation>
+        <translation type="obsolete">Imports blocks from external blk000??.dat file</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="249"/>
         <source>Incompatible mode.</source>
-        <translation>Incompatible mode.</translation>
+        <translation type="obsolete">Incompatible mode.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="250"/>
         <source>Incompatible version.</source>
-        <translation>Incompatible version.</translation>
+        <translation type="obsolete">Incompatible version.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="251"/>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Incorrect or no genesis block found. Wrong datadir for network?</translation>
+        <translation type="obsolete">Incorrect or no genesis block found. Wrong datadir for network?</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="252"/>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation type="obsolete">Information</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="253"/>
         <source>Initialization sanity check failed. Sibcoin Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Sibcoin Core is shutting down.</translation>
+        <translation type="obsolete">Initialization sanity check failed. Sibcoin Core is shutting down.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="254"/>
         <source>Input is not valid.</source>
-        <translation>Input is not valid.</translation>
+        <translation type="obsolete">Input is not valid.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="255"/>
         <source>InstantX options:</source>
-        <translation>InstantX options:</translation>
+        <translation type="obsolete">InstantX options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="256"/>
         <source>Insufficient funds</source>
-        <translation>Insufficient funds</translation>
+        <translation type="obsolete">Insufficient funds</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="257"/>
         <source>Insufficient funds.</source>
-        <translation>Insufficient funds.</translation>
+        <translation type="obsolete">Insufficient funds.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="258"/>
         <source>Invalid -onion address: &apos;%s&apos;</source>
-        <translation>Invalid -onion address: &apos;%s&apos;</translation>
+        <translation type="obsolete">Invalid -onion address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="259"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Invalid -proxy address: &apos;%s&apos;</translation>
+        <translation type="obsolete">Invalid -proxy address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="260"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="obsolete">Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="261"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="obsolete">Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="262"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="obsolete">Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="263"/>
         <source>Invalid amount</source>
-        <translation>Invalid amount</translation>
+        <translation type="obsolete">Invalid amount</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="264"/>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Invalid masternodeprivkey. Please see documenation.</translation>
+        <translation type="obsolete">Invalid masternodeprivkey. Please see documenation.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="265"/>
         <source>Invalid private key.</source>
-        <translation>Invalid private key.</translation>
+        <translation type="obsolete">Invalid private key.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="266"/>
         <source>Invalid script detected.</source>
-        <translation>Invalid script detected.</translation>
+        <translation type="obsolete">Invalid script detected.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="267"/>
         <source>KeePassHttp id for the established association</source>
-        <translation>KeePassHttp id for the established association</translation>
+        <translation type="obsolete">KeePassHttp id for the established association</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="268"/>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>KeePassHttp key for AES encrypted communication with KeePass</translation>
+        <translation type="obsolete">KeePassHttp key for AES encrypted communication with KeePass</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="269"/>
         <source>Keep N sibcoin anonymized (default: 0)</source>
-        <translation>Keep N sibcoin anonymized (default: 0)</translation>
+        <translation type="obsolete">Keep N sibcoin anonymized (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="270"/>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</translation>
+        <translation type="obsolete">Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="271"/>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
+        <translation type="obsolete">Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="272"/>
         <source>Last Darksend was too recent.</source>
-        <translation>Last Darksend was too recent.</translation>
+        <translation type="obsolete">Last Darksend was too recent.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="273"/>
         <source>Last successful darksend action was too recent.</source>
-        <translation>Last successful darksend action was too recent.</translation>
+        <translation type="obsolete">Last successful darksend action was too recent.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="274"/>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
-        <translation>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</translation>
+        <translation type="obsolete">Limit size of signature cache to &lt;n&gt; entries (default: 50000)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="275"/>
         <source>List commands</source>
-        <translation>List commands</translation>
+        <translation type="obsolete">List commands</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="276"/>
         <source>Listen for connections on &lt;port&gt; (default: 9999 or testnet: 19999)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 9999 or testnet: 19999)</translation>
+        <translation type="obsolete">Listen for connections on &lt;port&gt; (default: 9999 or testnet: 19999)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="277"/>
         <source>Loading addresses...</source>
-        <translation>Loading addresses...</translation>
+        <translation type="obsolete">Loading addresses...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="278"/>
         <source>Loading block index...</source>
-        <translation>Loading block index...</translation>
+        <translation type="obsolete">Loading block index...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="279"/>
-        <source>Loading masternode list...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../sibcoinstrings.cpp" line="280"/>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Loading wallet... (%3.2f %%)</translation>
+        <translation type="obsolete">Loading wallet... (%3.2f %%)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="281"/>
         <source>Loading wallet...</source>
-        <translation>Loading wallet...</translation>
+        <translation type="obsolete">Loading wallet...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="282"/>
         <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
-        <translation>Log transaction priority and fee per kB when mining blocks (default: 0)</translation>
+        <translation type="obsolete">Log transaction priority and fee per kB when mining blocks (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="283"/>
         <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Maintain a full transaction index (default: 0)</translation>
+        <translation type="obsolete">Maintain a full transaction index (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="284"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Maintain at most &lt;n&gt; connections to peers (default: 125)</translation>
+        <translation type="obsolete">Maintain at most &lt;n&gt; connections to peers (default: 125)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="285"/>
         <source>Masternode options:</source>
-        <translation>Masternode options:</translation>
+        <translation type="obsolete">Masternode options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="286"/>
         <source>Masternode queue is full.</source>
-        <translation>Masternode queue is full.</translation>
+        <translation type="obsolete">Masternode queue is full.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="287"/>
         <source>Masternode:</source>
-        <translation>Masternode:</translation>
+        <translation type="obsolete">Masternode:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="288"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</translation>
+        <translation type="obsolete">Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="289"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</translation>
+        <translation type="obsolete">Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="290"/>
         <source>Missing input transaction information.</source>
-        <translation>Missing input transaction information.</translation>
+        <translation type="obsolete">Missing input transaction information.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="291"/>
         <source>No compatible masternode found.</source>
-        <translation>No compatible masternode found.</translation>
+        <translation type="obsolete">No compatible masternode found.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="292"/>
         <source>No funds detected in need of denominating.</source>
-        <translation>No funds detected in need of denominating.</translation>
+        <translation type="obsolete">No funds detected in need of denominating.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="293"/>
         <source>No masternodes detected.</source>
-        <translation>No masternodes detected.</translation>
+        <translation type="obsolete">No masternodes detected.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="294"/>
         <source>No matching denominations found for mixing.</source>
-        <translation>No matching denominations found for mixing.</translation>
+        <translation type="obsolete">No matching denominations found for mixing.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="295"/>
         <source>Non-standard public key detected.</source>
-        <translation>Non-standard public key detected.</translation>
+        <translation type="obsolete">Non-standard public key detected.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="296"/>
         <source>Not compatible with existing transactions.</source>
-        <translation>Not compatible with existing transactions.</translation>
+        <translation type="obsolete">Not compatible with existing transactions.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="297"/>
         <source>Not enough file descriptors available.</source>
-        <translation>Not enough file descriptors available.</translation>
+        <translation type="obsolete">Not enough file descriptors available.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="298"/>
         <source>Not in the masternode list.</source>
-        <translation>Not in the masternode list.</translation>
+        <translation type="obsolete">Not in the masternode list.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="299"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Only accept block chain matching built-in checkpoints (default: 1)</translation>
+        <translation type="obsolete">Only accept block chain matching built-in checkpoints (default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="300"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
+        <translation type="obsolete">Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="301"/>
         <source>Options:</source>
-        <translation>Options:</translation>
+        <translation type="obsolete">Options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="302"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Password for JSON-RPC connections</translation>
+        <translation type="obsolete">Password for JSON-RPC connections</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="303"/>
         <source>Prepend debug output with timestamp (default: 1)</source>
-        <translation>Prepend debug output with timestamp (default: 1)</translation>
+        <translation type="obsolete">Prepend debug output with timestamp (default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="304"/>
         <source>Print block on startup, if found in block index</source>
-        <translation>Print block on startup, if found in block index</translation>
+        <translation type="obsolete">Print block on startup, if found in block index</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="305"/>
         <source>Print block tree on startup (default: 0)</source>
-        <translation>Print block tree on startup (default: 0)</translation>
+        <translation type="obsolete">Print block tree on startup (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="306"/>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
+        <translation type="obsolete">RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="307"/>
         <source>RPC client options:</source>
-        <translation>RPC client options:</translation>
+        <translation type="obsolete">RPC client options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="308"/>
         <source>RPC server options:</source>
-        <translation>RPC server options:</translation>
+        <translation type="obsolete">RPC server options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="309"/>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Randomly drop 1 of every &lt;n&gt; network messages</translation>
+        <translation type="obsolete">Randomly drop 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="310"/>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Randomly fuzz 1 of every &lt;n&gt; network messages</translation>
+        <translation type="obsolete">Randomly fuzz 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="311"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Rebuild block chain index from current blk000??.dat files</translation>
+        <translation type="obsolete">Rebuild block chain index from current blk000??.dat files</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="312"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescan the block chain for missing wallet transactions</translation>
+        <translation type="obsolete">Rescan the block chain for missing wallet transactions</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="313"/>
         <source>Rescanning...</source>
-        <translation>Rescanning...</translation>
+        <translation type="obsolete">Rescanning...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="314"/>
         <source>Run a thread to flush wallet periodically (default: 1)</source>
-        <translation>Run a thread to flush wallet periodically (default: 1)</translation>
+        <translation type="obsolete">Run a thread to flush wallet periodically (default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="315"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Run in the background as a daemon and accept commands</translation>
+        <translation type="obsolete">Run in the background as a daemon and accept commands</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="316"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
+        <translation type="obsolete">SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="317"/>
         <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
-        <translation>Select SOCKS version for -proxy (4 or 5, default: 5)</translation>
+        <translation type="obsolete">Select SOCKS version for -proxy (4 or 5, default: 5)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="318"/>
         <source>Send command to Sibcoin Core</source>
-        <translation>Send command to Sibcoin Core</translation>
+        <translation type="obsolete">Send command to Sibcoin Core</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="319"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</translation>
+        <translation type="obsolete">Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="320"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send trace/debug info to console instead of debug.log file</translation>
+        <translation type="obsolete">Send trace/debug info to console instead of debug.log file</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="321"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Server certificate file (default: server.cert)</translation>
+        <translation type="obsolete">Server certificate file (default: server.cert)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="322"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Server private key (default: server.pem)</translation>
+        <translation type="obsolete">Server private key (default: server.pem)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="323"/>
         <source>Session not complete!</source>
-        <translation>Session not complete!</translation>
+        <translation type="obsolete">Session not complete!</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="324"/>
         <source>Session timed out (30 seconds), please resubmit.</source>
-        <translation>Session timed out (30 seconds), please resubmit.</translation>
+        <translation type="obsolete">Session timed out (30 seconds), please resubmit.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="325"/>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Set database cache size in megabytes (%d to %d, default: %d)</translation>
+        <translation type="obsolete">Set database cache size in megabytes (%d to %d, default: %d)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="326"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Set key pool size to &lt;n&gt; (default: 100)</translation>
+        <translation type="obsolete">Set key pool size to &lt;n&gt; (default: 100)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="327"/>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Set maximum block size in bytes (default: %d)</translation>
+        <translation type="obsolete">Set maximum block size in bytes (default: %d)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="328"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Set minimum block size in bytes (default: 0)</translation>
+        <translation type="obsolete">Set minimum block size in bytes (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="329"/>
         <source>Set the masternode private key</source>
-        <translation>Set the masternode private key</translation>
+        <translation type="obsolete">Set the masternode private key</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="330"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Set the number of threads to service RPC calls (default: 4)</translation>
+        <translation type="obsolete">Set the number of threads to service RPC calls (default: 4)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="331"/>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
-        <translation>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</translation>
+        <translation type="obsolete">Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="332"/>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Show all debugging options (usage: --help -help-debug)</translation>
+        <translation type="obsolete">Show all debugging options (usage: --help -help-debug)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="333"/>
         <source>Show benchmark information (default: 0)</source>
-        <translation>Show benchmark information (default: 0)</translation>
+        <translation type="obsolete">Show benchmark information (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="334"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Shrink debug.log file on client startup (default: 1 when no -debug)</translation>
+        <translation type="obsolete">Shrink debug.log file on client startup (default: 1 when no -debug)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="335"/>
         <source>Signing failed.</source>
-        <translation>Signing failed.</translation>
+        <translation type="obsolete">Signing failed.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="336"/>
         <source>Signing timed out, please resubmit.</source>
-        <translation>Signing timed out, please resubmit.</translation>
+        <translation type="obsolete">Signing timed out, please resubmit.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="337"/>
         <source>Signing transaction failed</source>
-        <translation>Signing transaction failed</translation>
+        <translation type="obsolete">Signing transaction failed</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="338"/>
         <source>Specify configuration file (default: sibcoin.conf)</source>
-        <translation>Specify configuration file (default: sibcoin.conf)</translation>
+        <translation type="obsolete">Specify configuration file (default: sibcoin.conf)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="339"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Specify connection timeout in milliseconds (default: 5000)</translation>
+        <translation type="obsolete">Specify connection timeout in milliseconds (default: 5000)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="340"/>
         <source>Specify data directory</source>
-        <translation>Specify data directory</translation>
+        <translation type="obsolete">Specify data directory</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="341"/>
         <source>Specify masternode configuration file (default: masternode.conf)</source>
-        <translation>Specify masternode configuration file (default: masternode.conf)</translation>
+        <translation type="obsolete">Specify masternode configuration file (default: masternode.conf)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="342"/>
         <source>Specify pid file (default: sibcoind.pid)</source>
-        <translation>Specify pid file (default: sibcoind.pid)</translation>
+        <translation type="obsolete">Specify pid file (default: sibcoind.pid)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="343"/>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Specify wallet file (within data directory)</translation>
+        <translation type="obsolete">Specify wallet file (within data directory)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="344"/>
         <source>Specify your own public address</source>
-        <translation>Specify your own public address</translation>
+        <translation type="obsolete">Specify your own public address</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="345"/>
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>
-        <translation>Spend unconfirmed change when sending transactions (default: 1)</translation>
+        <translation type="obsolete">Spend unconfirmed change when sending transactions (default: 1)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="346"/>
         <source>Start Sibcoin Core Daemon</source>
-        <translation>Start Sibcoin Core Daemon</translation>
+        <translation type="obsolete">Start Sibcoin Core Daemon</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="347"/>
         <source>System error: </source>
-        <translation>System error: </translation>
+        <translation type="obsolete">System error: </translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="348"/>
         <source>This help message</source>
-        <translation>This help message</translation>
+        <translation type="obsolete">This help message</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="349"/>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>This is intended for regression testing tools and app development.</translation>
+        <translation type="obsolete">This is intended for regression testing tools and app development.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="350"/>
         <source>This is not a masternode.</source>
-        <translation>This is not a masternode.</translation>
+        <translation type="obsolete">This is not a masternode.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="351"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
+        <translation type="obsolete">Threshold for disconnecting misbehaving peers (default: 100)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="352"/>
         <source>To use the %s option</source>
-        <translation>To use the %s option</translation>
+        <translation type="obsolete">To use the %s option</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="353"/>
         <source>Transaction amount too small</source>
-        <translation>Transaction amount too small</translation>
+        <translation type="obsolete">Transaction amount too small</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="354"/>
         <source>Transaction amounts must be positive</source>
-        <translation>Transaction amounts must be positive</translation>
+        <translation type="obsolete">Transaction amounts must be positive</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="355"/>
         <source>Transaction created successfully.</source>
-        <translation>Transaction created successfully.</translation>
+        <translation type="obsolete">Transaction created successfully.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="356"/>
         <source>Transaction fees are too high.</source>
-        <translation>Transaction fees are too high.</translation>
+        <translation type="obsolete">Transaction fees are too high.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="357"/>
         <source>Transaction not valid.</source>
-        <translation>Transaction not valid.</translation>
+        <translation type="obsolete">Transaction not valid.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="358"/>
         <source>Transaction too large</source>
-        <translation>Transaction too large</translation>
+        <translation type="obsolete">Transaction too large</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="359"/>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Unable to bind to %s on this computer (bind returned error %s)</translation>
+        <translation type="obsolete">Unable to bind to %s on this computer (bind returned error %s)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="360"/>
         <source>Unable to sign masternode payment winner, wrong key?</source>
-        <translation>Unable to sign masternode payment winner, wrong key?</translation>
+        <translation type="obsolete">Unable to sign masternode payment winner, wrong key?</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="361"/>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Unable to sign spork message, wrong key?</translation>
+        <translation type="obsolete">Unable to sign spork message, wrong key?</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="362"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Unknown -socks proxy version requested: %i</translation>
+        <translation type="obsolete">Unknown -socks proxy version requested: %i</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="363"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Unknown network specified in -onlynet: &apos;%s&apos;</translation>
+        <translation type="obsolete">Unknown network specified in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="364"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Upgrade wallet to latest format</translation>
+        <translation type="obsolete">Upgrade wallet to latest format</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="365"/>
         <source>Usage (deprecated, use sibcoin-cli):</source>
-        <translation>Usage (deprecated, use sibcoin-cli):</translation>
+        <translation type="obsolete">Usage (deprecated, use sibcoin-cli):</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="366"/>
         <source>Usage:</source>
-        <translation>Usage:</translation>
+        <translation type="obsolete">Usage:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="367"/>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: 0)</source>
-        <translation>Use KeePass 2 integration using KeePassHttp plugin (default: 0)</translation>
+        <translation type="obsolete">Use KeePass 2 integration using KeePassHttp plugin (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="368"/>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: 2)</source>
-        <translation>Use N separate masternodes to anonymize funds  (2-8, default: 2)</translation>
+        <translation type="obsolete">Use N separate masternodes to anonymize funds  (2-8, default: 2)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="369"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
+        <translation type="obsolete">Use OpenSSL (https) for JSON-RPC connections</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="370"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Use UPnP to map the listening port (default: 0)</translation>
+        <translation type="obsolete">Use UPnP to map the listening port (default: 0)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="371"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Use UPnP to map the listening port (default: 1 when listening)</translation>
+        <translation type="obsolete">Use UPnP to map the listening port (default: 1 when listening)</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="372"/>
         <source>Use the test network</source>
-        <translation>Use the test network</translation>
+        <translation type="obsolete">Use the test network</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="373"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Username for JSON-RPC connections</translation>
+        <translation type="obsolete">Username for JSON-RPC connections</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="374"/>
         <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Value more than Darksend pool maximum allows.</translation>
+        <translation type="obsolete">Value more than Darksend pool maximum allows.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="375"/>
         <source>Verifying blocks...</source>
-        <translation>Verifying blocks...</translation>
+        <translation type="obsolete">Verifying blocks...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="376"/>
         <source>Verifying wallet...</source>
-        <translation>Verifying wallet...</translation>
+        <translation type="obsolete">Verifying wallet...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="377"/>
         <source>Wait for RPC server to start</source>
-        <translation>Wait for RPC server to start</translation>
+        <translation type="obsolete">Wait for RPC server to start</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="378"/>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Wallet %s resides outside data directory %s</translation>
+        <translation type="obsolete">Wallet %s resides outside data directory %s</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="379"/>
         <source>Wallet is locked.</source>
-        <translation>Wallet is locked.</translation>
+        <translation type="obsolete">Wallet is locked.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="380"/>
         <source>Wallet needed to be rewritten: restart Sibcoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Sibcoin to complete</translation>
+        <translation type="obsolete">Wallet needed to be rewritten: restart Sibcoin to complete</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="381"/>
         <source>Wallet options:</source>
-        <translation>Wallet options:</translation>
+        <translation type="obsolete">Wallet options:</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="382"/>
         <source>Warning</source>
-        <translation>Warning</translation>
+        <translation type="obsolete">Warning</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="383"/>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation>Warning: Deprecated argument -debugnet ignored, use -debug=net</translation>
+        <translation type="obsolete">Warning: Deprecated argument -debugnet ignored, use -debug=net</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="384"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warning: This version is obsolete, upgrade required!</translation>
+        <translation type="obsolete">Warning: This version is obsolete, upgrade required!</translation>
     </message>
     <message>
         <source>Wrong state.</source>
         <translation type="obsolete">Wrong state.</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="385"/>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>You need to rebuild the database using -reindex to change -txindex</translation>
+        <translation type="obsolete">You need to rebuild the database using -reindex to change -txindex</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="386"/>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Zapping all transactions from wallet...</translation>
+        <translation type="obsolete">Zapping all transactions from wallet...</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="387"/>
         <source>on startup</source>
-        <translation>on startup</translation>
+        <translation type="obsolete">on startup</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="388"/>
         <source>version</source>
-        <translation>version</translation>
+        <translation type="obsolete">version</translation>
     </message>
     <message>
-        <location filename="../sibcoinstrings.cpp" line="389"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, salvage failed</translation>
+        <translation type="obsolete">wallet.dat corrupt, salvage failed</translation>
     </message>
 </context>
 </TS>
