@@ -412,7 +412,10 @@ CKey WalletModel::generateNewKey() const
 
 bool WalletModel::setAddressBook(const CTxDestination& address, const string& strName, const string& strPurpose)
 {
-    return wallet->SetAddressBook(address, strName, strPurpose);
+    LOCK(wallet->cs_wallet);
+    {
+        return wallet->SetAddressBook(address, strName, strPurpose);
+    }
 }
  
  
