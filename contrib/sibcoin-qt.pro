@@ -78,6 +78,7 @@ HEADERS += \
     ../src/qt/csvmodelwriter.h \
     ../src/qt/darksendconfig.h \
     ../src/qt/editaddressdialog.h \
+    ../src/qt/genandprintdialog.h \    
     ../src/qt/guiconstants.h \
     ../src/qt/guiutil.h \
     ../src/qt/intro.h \
@@ -233,6 +234,7 @@ SOURCES += \
     ../src/qt/dash.cpp \
     ../src/qt/darksendconfig.cpp \
     ../src/qt/editaddressdialog.cpp \
+    ../src/qt/genandprintdialog.cpp \
     ../src/qt/guiutil.cpp \
     ../src/qt/intro.cpp \
     ../src/qt/moc_addressbookpage.cpp \
@@ -325,6 +327,7 @@ FORMS += \
     ../src/qt/forms/coincontroldialog.ui \
     ../src/qt/forms/darksendconfig.ui \
     ../src/qt/forms/editaddressdialog.ui \
+    ../src/qt/forms/genandprintdialog.ui \
     ../src/qt/forms/helpmessagedialog.ui \
     ../src/qt/forms/intro.ui \
     ../src/qt/forms/openuridialog.ui \
@@ -339,4 +342,4 @@ FORMS += \
     ../src/qt/forms/transactiondescdialog.ui
 
 RESOURCES += \
-    ../src/qt/dash.qrc
+    ../src/qt/sibcoin.qrc
