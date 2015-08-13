@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru">
+<TS version="2.0" language="ru">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1413,6 +1413,7 @@ Address: %4
     </message>
     <message>
         <location filename="../genandprintdialog.cpp" line="57"/>
+        <location filename="../genandprintdialog.cpp" line="69"/>
         <source>Account name</source>
         <translation>Имя аккаунта</translation>
     </message>
@@ -1422,43 +1423,63 @@ Address: %4
         <translation>Пароль</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="59"/>
+        <location filename="../genandprintdialog.cpp" line="60"/>
         <source>Repeat password</source>
         <translation>Повторите пароль</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="60"/>
+        <location filename="../genandprintdialog.cpp" line="62"/>
         <source>Enter account and passphrase to the encrypt private key</source>
         <translation>Введите аккаунт и пароль для шифрования приватного ключа</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="63"/>
+        <location filename="../genandprintdialog.cpp" line="65"/>
         <source>Import private key</source>
         <translation>Импорт приватного ключа</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="65"/>
+        <location filename="../genandprintdialog.cpp" line="67"/>
         <source>Private key</source>
         <translation>Приватный ключ</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="66"/>
+        <location filename="../genandprintdialog.cpp" line="68"/>
         <source>Key password</source>
         <translation>Пароль ключа</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="69"/>
+        <location filename="../genandprintdialog.cpp" line="71"/>
         <source>Enter private key and passphrase</source>
         <translation>Введите приватный ключ и пароль</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="271"/>
-        <source>New key</source>
-        <translation>Новый ключ</translation>
+        <location filename="../genandprintdialog.cpp" line="240"/>
+        <location filename="../genandprintdialog.cpp" line="262"/>
+        <source>Error</source>
+        <translation type="unfinished">Ошибка</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="408"/>
-        <location filename="../genandprintdialog.cpp" line="432"/>
+        <location filename="../genandprintdialog.cpp" line="240"/>
+        <source>Invalid private key! (Is password correct?)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="256"/>
+        <source>Private key imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="262"/>
+        <source>Private importe ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New key</source>
+        <translation type="obsolete">Новый ключ</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="461"/>
+        <location filename="../genandprintdialog.cpp" line="485"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Внимание: включен Caps Lock!</translation>
     </message>
@@ -4074,13 +4095,13 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="270"/>
-        <location filename="../walletmodel.cpp" line="284"/>
+        <location filename="../walletmodel.cpp" line="271"/>
+        <location filename="../walletmodel.cpp" line="285"/>
         <source>Send Coins</source>
         <translation>Отправка</translation>
     </message>
     <message numerus="yes">
-        <location filename="../walletmodel.cpp" line="270"/>
+        <location filename="../walletmodel.cpp" line="271"/>
         <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n SIB.</source>
         <translation>
             <numerusform>InstantX пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %n червонца.</numerusform>

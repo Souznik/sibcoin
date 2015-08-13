@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.0" language="en">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1410,6 +1410,7 @@ Address: %4
     </message>
     <message>
         <location filename="../genandprintdialog.cpp" line="57"/>
+        <location filename="../genandprintdialog.cpp" line="69"/>
         <source>Account name</source>
         <translation>Account name</translation>
     </message>
@@ -1419,43 +1420,63 @@ Address: %4
         <translation>Password</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="59"/>
+        <location filename="../genandprintdialog.cpp" line="60"/>
         <source>Repeat password</source>
         <translation>Repeat password</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="60"/>
+        <location filename="../genandprintdialog.cpp" line="62"/>
         <source>Enter account and passphrase to the encrypt private key</source>
         <translation>Enter account and passphrase to the encrypt private key</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="63"/>
+        <location filename="../genandprintdialog.cpp" line="65"/>
         <source>Import private key</source>
         <translation>Import private key</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="65"/>
+        <location filename="../genandprintdialog.cpp" line="67"/>
         <source>Private key</source>
         <translation>Private key</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="66"/>
+        <location filename="../genandprintdialog.cpp" line="68"/>
         <source>Key password</source>
         <translation>Key password</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="69"/>
+        <location filename="../genandprintdialog.cpp" line="71"/>
         <source>Enter private key and passphrase</source>
         <translation>Enter private key and passphrase</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="271"/>
-        <source>New key</source>
-        <translation>New key</translation>
+        <location filename="../genandprintdialog.cpp" line="240"/>
+        <location filename="../genandprintdialog.cpp" line="262"/>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="408"/>
-        <location filename="../genandprintdialog.cpp" line="432"/>
+        <location filename="../genandprintdialog.cpp" line="240"/>
+        <source>Invalid private key! (Is password correct?)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="256"/>
+        <source>Private key imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="262"/>
+        <source>Private importe ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New key</source>
+        <translation type="obsolete">New key</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="461"/>
+        <location filename="../genandprintdialog.cpp" line="485"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Warning: The Caps Lock key is on!</translation>
     </message>
@@ -4074,13 +4095,13 @@ https://www.transifex.com/projects/p/sibcoin/</source>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="270"/>
-        <location filename="../walletmodel.cpp" line="284"/>
+        <location filename="../walletmodel.cpp" line="271"/>
+        <location filename="../walletmodel.cpp" line="285"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
     <message numerus="yes">
-        <location filename="../walletmodel.cpp" line="270"/>
+        <location filename="../walletmodel.cpp" line="271"/>
         <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n SIB.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
