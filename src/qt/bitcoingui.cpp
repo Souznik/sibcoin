@@ -323,8 +323,6 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     signMessageAction->setStatusTip(tr("Sign messages with your Sibcoin addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
     verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Sibcoin addresses"));
-    genAndPrintAddressesAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    genAndPrintAddressesAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Sibcoin addresses"));
 
     openInfoAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Information"), this);
     openInfoAction->setStatusTip(tr("Show diagnostic information"));
@@ -342,10 +340,12 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     usedReceivingAddressesAction = new QAction(QIcon(":/icons/address-book"), tr("&Receiving addresses..."), this);
     usedReceivingAddressesAction->setStatusTip(tr("Show the list of used receiving addresses and labels"));
 
-    genAndPrintAddressesAction = new QAction(QIcon(":/icons/address-book"), tr("&Print sibcoins..."), this);
+    genAndPrintAddressesAction = new QAction(QIcon(":/icons/cash_icon"), tr("&Print sibcoins..."), this);
+    genAndPrintAddressesAction->setIconVisibleInMenu(true);
     genAndPrintAddressesAction->setStatusTip(tr("Generate address and print"));
 
-    loadFromPaperAction = new QAction(QIcon(":/icons/address-book"), tr("&Load sibcoins..."), this);
+    loadFromPaperAction = new QAction(QIcon(":/icons/import"), tr("&Load sibcoins..."), this);
+    loadFromPaperAction->setIconVisibleInMenu(true);
     loadFromPaperAction->setStatusTip(tr("Load sibcoins from paper"));
     
     openAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_FileIcon), tr("Open &URI..."), this);

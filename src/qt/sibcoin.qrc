@@ -2,6 +2,8 @@
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/bitcoin.png</file>
         <file alias="che_cash_print">res/icons/che_cash_print.png</file>
+        <file alias="cash_icon">res/icons/cash_icon.png</file>
+        <file alias="import">res/icons/import.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>
