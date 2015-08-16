@@ -27,9 +27,9 @@
 #include <QTextDocument>
 #include <QUrl>
 
-#ifdef USE_QRCODE
+//#ifdef USE_QRCODE
 #include <qrencode.h>
-#endif
+//#endif
 
 GenAndPrintDialog::GenAndPrintDialog(Mode mode, QWidget *parent) :
     QDialog(parent),
@@ -266,7 +266,7 @@ void GenAndPrintDialog::on_printButton_clicked()
         bool bEnd = painter.end();
 
         painter.begin(&img2);
-        printAsQR(painter, qsecret, 0);
+        printAsQR(painter, qcrypted, 0);
         img2.invertPixels();
         bEnd = painter.end();
         
@@ -300,7 +300,7 @@ void GenAndPrintDialog::on_printButton_clicked()
 
 void GenAndPrintDialog::printAsQR(QPainter &painter, QString &vchKey, int shift)
 {
-    QRcode *qr = QRcode_encodeString(vchKey.toStdString().c_str(), 1, QR_ECLEVEL_L, QR_MODE_8, 0);
+    QRcode *qr = QRcode_encodeString(vchKey.toStdString().c_str(), 1, QR_ECLEVEL_L, QR_MODE_8, 1);
     if(0!=qr) {
         QPaintDevice *pd = painter.device(); 
         const double w = pd->width();
