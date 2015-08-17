@@ -53,8 +53,11 @@
     <qresource prefix="/css">
         <file alias="drkblue">res/css/drkblue.css</file>
     </qresource>
-    <qresource prefix="/html">
-        <file alias="paperwallet">res/html/paperwallet.html</file>
+    <qresource prefix="/html" lang="en">
+        <file alias="paperwallet">res/html/paperwallet_en.html</file>
+    </qresource>
+    <qresource prefix="/html" lang="ru">
+        <file alias="paperwallet">res/html/paperwallet_ru.html</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>

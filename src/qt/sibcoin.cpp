@@ -104,6 +104,9 @@ static void initTranslations(QTranslator &qtTranslatorBase, QTranslator &qtTrans
     QString lang = lang_territory;
     lang.truncate(lang_territory.lastIndexOf('_'));
 
+    // it is for use lang specific resources
+    QLocale::setDefault(QLocale(lang_territory));
+    
     // Load language files for configured locale:
     // - First load the translator for the base language, without territory
     // - Then load the more specific locale translator
@@ -476,7 +479,7 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
-
+    
     Q_INIT_RESOURCE(sibcoin);
 
     GUIUtil::SubstituteFonts();
