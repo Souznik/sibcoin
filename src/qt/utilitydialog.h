@@ -57,6 +57,29 @@ private slots:
 };
 
 
+/** "Help message" dialog box */
+class HelpSibcoinDialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit HelpSibcoinDialog(QWidget *parent);
+    ~HelpSibcoinDialog();
+
+    void printToConsole();
+    void showOrPrint();
+
+private:
+    Ui::HelpMessageDialog *ui;
+    QString header;
+    QString coreOptions;
+    QString uiOptions;
+
+private slots:
+    void on_okButton_accepted();
+};
+
+
 /** "Shutdown" window */
 class ShutdownWindow : public QObject
 {

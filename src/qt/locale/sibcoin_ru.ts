@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<TS version="2.1" language="ru">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,30 +38,30 @@ This product includes software developed by the OpenSSL Project for use in the O
 Этот продукт включает ПО, разработанное проектом OpenSSL Project для использования в OpenSSL Toolkit (http://www.openssl.org/), криптографическое ПО, написанное Eric Young (eay@cryptsoft.com) и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="30"/>
-        <location filename="../utilitydialog.cpp" line="31"/>
         <location filename="../utilitydialog.cpp" line="32"/>
+        <location filename="../utilitydialog.cpp" line="33"/>
+        <location filename="../utilitydialog.cpp" line="34"/>
         <source>Copyright</source>
         <translation>Copyright</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="30"/>
+        <location filename="../utilitydialog.cpp" line="32"/>
         <source>The Bitcoin Core developers</source>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="31"/>
+        <location filename="../utilitydialog.cpp" line="33"/>
         <source>The Dash Core developers</source>
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="32"/>
+        <location filename="../utilitydialog.cpp" line="34"/>
         <source>The Sibcoin Core developers</source>
         <translation>Разработчики Sibcoin Core</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="44"/>
         <location filename="../utilitydialog.cpp" line="46"/>
+        <location filename="../utilitydialog.cpp" line="48"/>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
@@ -377,7 +377,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="105"/>
-        <location filename="../bitcoingui.cpp" line="548"/>
+        <location filename="../bitcoingui.cpp" line="554"/>
         <source>[testnet]</source>
         <translation>[тестовая сеть]</translation>
     </message>
@@ -531,98 +531,96 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="324"/>
-        <location filename="../bitcoingui.cpp" line="326"/>
         <source>&amp;Verify message...</source>
         <translation>П&amp;роверить сообщение...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <location filename="../bitcoingui.cpp" line="327"/>
         <source>Verify messages to ensure they were signed with specified Sibcoin addresses</source>
         <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами сети &quot;Червонца&quot;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="329"/>
+        <location filename="../bitcoingui.cpp" line="327"/>
         <source>&amp;Information</source>
         <translation>&amp;Информация</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="330"/>
+        <location filename="../bitcoingui.cpp" line="328"/>
         <source>Show diagnostic information</source>
         <translation>Показать диагностическую информацию</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="331"/>
+        <location filename="../bitcoingui.cpp" line="329"/>
         <source>&amp;Debug console</source>
         <translation>&amp;Консоль отладки</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="332"/>
+        <location filename="../bitcoingui.cpp" line="330"/>
         <source>Open debugging console</source>
         <translation>Открыть консоль отладки</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="333"/>
+        <location filename="../bitcoingui.cpp" line="331"/>
         <source>&amp;Network Monitor</source>
         <translation>&amp;Монитор сети</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="334"/>
+        <location filename="../bitcoingui.cpp" line="332"/>
         <source>Show network monitor</source>
         <translation>Показать монитор сети</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="335"/>
+        <location filename="../bitcoingui.cpp" line="333"/>
         <source>Open &amp;Configuration File</source>
         <translation>Открыть файл &amp;настроек</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="336"/>
+        <location filename="../bitcoingui.cpp" line="334"/>
         <source>Open configuration file</source>
         <translation>Открыть файл настроек</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="337"/>
+        <location filename="../bitcoingui.cpp" line="335"/>
         <source>Show Automatic &amp;Backups</source>
         <translation>Показать автоматические &amp;бэкапы</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="338"/>
+        <location filename="../bitcoingui.cpp" line="336"/>
         <source>Show automatically created wallet backups</source>
         <translation>Показать автоматически созданные бэкапы бумажника</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="340"/>
+        <location filename="../bitcoingui.cpp" line="338"/>
         <source>&amp;Sending addresses...</source>
         <translation>Адреса &amp;отправки...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="341"/>
+        <location filename="../bitcoingui.cpp" line="339"/>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Показать список использованных адресов отправки и их меток</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="342"/>
+        <location filename="../bitcoingui.cpp" line="340"/>
         <source>&amp;Receiving addresses...</source>
         <translation>Адреса &amp;получения...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="343"/>
+        <location filename="../bitcoingui.cpp" line="341"/>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Показать список использованных адресов получения и их меток</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="345"/>
+        <location filename="../bitcoingui.cpp" line="343"/>
         <source>&amp;Print sibcoins...</source>
         <translation>&amp;Распечатать червонцы...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="346"/>
+        <location filename="../bitcoingui.cpp" line="345"/>
         <source>Generate address and print</source>
         <translation>Сгенерировать адрес и распечатать</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="348"/>
+        <location filename="../bitcoingui.cpp" line="347"/>
         <source>&amp;Load sibcoins...</source>
         <translation>&amp;Загрузить червонцы...</translation>
     </message>
@@ -652,38 +650,48 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Показать помощь о кошельке &quot;Червонца&quot; со списком возможных параметров командной строки</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="393"/>
+        <location filename="../bitcoingui.cpp" line="357"/>
+        <source>&amp;Howto</source>
+        <translation>&amp;Как пользоваться</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="358"/>
+        <source>How to use Sibcoins</source>
+        <translation>Как пользоваться Червонцами</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="398"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="409"/>
+        <location filename="../bitcoingui.cpp" line="414"/>
         <source>&amp;Settings</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="422"/>
+        <location filename="../bitcoingui.cpp" line="427"/>
         <source>&amp;Tools</source>
         <translation>&amp;Инструменты</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="430"/>
+        <location filename="../bitcoingui.cpp" line="435"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="441"/>
+        <location filename="../bitcoingui.cpp" line="447"/>
         <source>Tabs toolbar</source>
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="543"/>
-        <location filename="../bitcoingui.cpp" line="548"/>
+        <location filename="../bitcoingui.cpp" line="549"/>
+        <location filename="../bitcoingui.cpp" line="554"/>
         <source>Sibcoin client</source>
         <translation>Клиент &quot;Червонца&quot;</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="694"/>
+        <location filename="../bitcoingui.cpp" line="708"/>
         <source>%n active connection(s) to Sibcoin network</source>
         <translation>
             <numerusform>%n активное соединение с сетью &quot;Червонца&quot;</numerusform>
@@ -692,37 +700,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="709"/>
+        <location filename="../bitcoingui.cpp" line="723"/>
         <source>Synchronizing with network...</source>
         <translation>Синхронизация с сетью...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="712"/>
+        <location filename="../bitcoingui.cpp" line="726"/>
         <source>Importing blocks from disk...</source>
         <translation>Выполняется импорт блоков с диска...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="715"/>
+        <location filename="../bitcoingui.cpp" line="729"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="719"/>
+        <location filename="../bitcoingui.cpp" line="733"/>
         <source>No block source available...</source>
         <translation>Источник блоков недоступен...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="729"/>
+        <location filename="../bitcoingui.cpp" line="743"/>
         <source>Processed %1 blocks of transaction history.</source>
         <translation>Обработано %1 блоков из истории транзакций.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="734"/>
+        <location filename="../bitcoingui.cpp" line="748"/>
         <source>Up to date</source>
         <translation>Синхронизировано</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="755"/>
+        <location filename="../bitcoingui.cpp" line="769"/>
         <source>%n hour(s)</source>
         <translation>
             <numerusform>%n час</numerusform>
@@ -731,7 +739,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="759"/>
+        <location filename="../bitcoingui.cpp" line="773"/>
         <source>%n day(s)</source>
         <translation>
             <numerusform>%n день</numerusform>
@@ -740,8 +748,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="763"/>
-        <location filename="../bitcoingui.cpp" line="769"/>
+        <location filename="../bitcoingui.cpp" line="777"/>
+        <location filename="../bitcoingui.cpp" line="783"/>
         <source>%n week(s)</source>
         <translation>
             <numerusform>%n неделя</numerusform>
@@ -750,12 +758,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="769"/>
+        <location filename="../bitcoingui.cpp" line="783"/>
         <source>%1 and %2</source>
         <translation>%1 и %2</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="769"/>
+        <location filename="../bitcoingui.cpp" line="783"/>
         <source>%n year(s)</source>
         <translation>
             <numerusform>%n год</numerusform>
@@ -764,57 +772,57 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="773"/>
+        <location filename="../bitcoingui.cpp" line="787"/>
         <source>%1 behind</source>
         <translation>%1 позади</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="778"/>
+        <location filename="../bitcoingui.cpp" line="792"/>
         <source>Catching up...</source>
         <translation>Синхронизируется...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="794"/>
+        <location filename="../bitcoingui.cpp" line="808"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Последний полученный блок был сгенерирован %1 назад.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="796"/>
+        <location filename="../bitcoingui.cpp" line="810"/>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Транзакции после этого времени пока видны не будут.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="809"/>
+        <location filename="../bitcoingui.cpp" line="823"/>
         <source>Sibcoin</source>
         <translation>Сибирский Червонец (SIB)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="823"/>
+        <location filename="../bitcoingui.cpp" line="837"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="826"/>
+        <location filename="../bitcoingui.cpp" line="840"/>
         <source>Warning</source>
         <translation>Внимание</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="829"/>
+        <location filename="../bitcoingui.cpp" line="843"/>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="907"/>
+        <location filename="../bitcoingui.cpp" line="921"/>
         <source>Sent transaction</source>
         <translation>Исходящая транзакция</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="907"/>
+        <location filename="../bitcoingui.cpp" line="921"/>
         <source>Incoming transaction</source>
         <translation>Входящая транзакция</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="908"/>
+        <location filename="../bitcoingui.cpp" line="922"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -827,17 +835,17 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="978"/>
+        <location filename="../bitcoingui.cpp" line="992"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="988"/>
+        <location filename="../bitcoingui.cpp" line="1002"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в данный момент &lt;b&gt;разблокирован&lt;/b&gt; только для целей анонимизации</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="998"/>
+        <location filename="../bitcoingui.cpp" line="1012"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
@@ -1407,79 +1415,85 @@ Address: %4
         <translation>Импорт</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="55"/>
+        <location filename="../genandprintdialog.cpp" line="56"/>
         <source>Export key pair</source>
         <translation>Экспорт пары ключей</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="57"/>
-        <location filename="../genandprintdialog.cpp" line="69"/>
+        <location filename="../genandprintdialog.cpp" line="58"/>
+        <location filename="../genandprintdialog.cpp" line="70"/>
         <source>Account name</source>
         <translation>Имя аккаунта</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="58"/>
+        <location filename="../genandprintdialog.cpp" line="59"/>
         <source>Password</source>
         <translation>Пароль</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="60"/>
+        <location filename="../genandprintdialog.cpp" line="61"/>
         <source>Repeat password</source>
         <translation>Повторите пароль</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="62"/>
+        <location filename="../genandprintdialog.cpp" line="63"/>
         <source>Enter account and passphrase to the encrypt private key</source>
         <translation>Введите аккаунт и пароль для шифрования приватного ключа</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="65"/>
+        <location filename="../genandprintdialog.cpp" line="66"/>
         <source>Import private key</source>
         <translation>Импорт приватного ключа</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="67"/>
+        <location filename="../genandprintdialog.cpp" line="68"/>
         <source>Private key</source>
         <translation>Приватный ключ</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="68"/>
+        <location filename="../genandprintdialog.cpp" line="69"/>
         <source>Key password</source>
         <translation>Пароль ключа</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="71"/>
+        <location filename="../genandprintdialog.cpp" line="72"/>
         <source>Enter private key and passphrase</source>
         <translation>Введите приватный ключ и пароль</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="240"/>
-        <location filename="../genandprintdialog.cpp" line="262"/>
+        <location filename="../genandprintdialog.cpp" line="163"/>
+        <location filename="../genandprintdialog.cpp" line="183"/>
+        <location filename="../genandprintdialog.cpp" line="202"/>
         <source>Error</source>
-        <translation type="unfinished">Ошибка</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="240"/>
+        <location filename="../genandprintdialog.cpp" line="163"/>
         <source>Invalid private key! (Is password correct?)</source>
-        <translation type="unfinished"></translation>
+        <translation>Приватный ключ не валиден! (Корректно ли был введен пароль?)</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="256"/>
+        <location filename="../genandprintdialog.cpp" line="183"/>
+        <source>Cant import key into locked wallet</source>
+        <translation>Не могу импортировать ключ, когда бумажник заблокирован</translation>
+    </message>
+    <message>
+        <location filename="../genandprintdialog.cpp" line="190"/>
         <source>Private key imported</source>
-        <translation type="unfinished"></translation>
+        <translation>Приватный ключ импортирован</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="262"/>
-        <source>Private importe ERROR</source>
-        <translation type="unfinished"></translation>
+        <location filename="../genandprintdialog.cpp" line="202"/>
+        <source>Private key import error</source>
+        <translation>Ошибка импорта приватного ключа</translation>
     </message>
     <message>
         <source>New key</source>
         <translation type="obsolete">Новый ключ</translation>
     </message>
     <message>
-        <location filename="../genandprintdialog.cpp" line="461"/>
-        <location filename="../genandprintdialog.cpp" line="485"/>
+        <location filename="../genandprintdialog.cpp" line="345"/>
+        <location filename="../genandprintdialog.cpp" line="369"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Внимание: включен Caps Lock!</translation>
     </message>
@@ -1492,52 +1506,52 @@ Address: %4
         <translation>&quot;Сибирский Червонец&quot; (SIB) - параметры командной строки</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="70"/>
+        <location filename="../utilitydialog.cpp" line="72"/>
         <source>Sibcoin Core</source>
         <translation>&quot;Сибирский Червонец&quot;(SIB)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="70"/>
+        <location filename="../utilitydialog.cpp" line="72"/>
         <source>version</source>
         <translation>версия</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="72"/>
+        <location filename="../utilitydialog.cpp" line="74"/>
         <source>Usage:</source>
         <translation>Использование:</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="73"/>
+        <location filename="../utilitydialog.cpp" line="75"/>
         <source>command-line options</source>
         <translation>параметры командной строки</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="77"/>
+        <location filename="../utilitydialog.cpp" line="79"/>
         <source>UI options</source>
         <translation>Настройки интерфейса</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="78"/>
+        <location filename="../utilitydialog.cpp" line="80"/>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Выбрать каталог данных при запуске (по умолчанию: 0)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="79"/>
+        <location filename="../utilitydialog.cpp" line="81"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Выберите язык, например &quot;ru_RU&quot; (по умолчанию: как в системе)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="80"/>
+        <location filename="../utilitydialog.cpp" line="82"/>
         <source>Start minimized</source>
         <translation>Запускать свёрнутым</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="81"/>
+        <location filename="../utilitydialog.cpp" line="83"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Указать корневые SSL-сертификаты для запроса платежа (по умолчанию: -system-)</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="82"/>
+        <location filename="../utilitydialog.cpp" line="84"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Показывать заставку при запуске (по умолчанию: 1)</translation>
     </message>
@@ -2135,21 +2149,21 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
         <location filename="../overviewpage.cpp" line="400"/>
         <location filename="../overviewpage.cpp" line="401"/>
         <source>Submitted to masternode, waiting for more entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Передано мастерноде, ожидаю больше записей</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="405"/>
         <location filename="../overviewpage.cpp" line="406"/>
         <location filename="../overviewpage.cpp" line="407"/>
         <source>Found enough users, signing ( waiting</source>
-        <translation type="unfinished"></translation>
+        <translation>Найдено недостаточно пользователей, подписей (ожидаю)</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="419"/>
         <location filename="../overviewpage.cpp" line="420"/>
         <location filename="../overviewpage.cpp" line="421"/>
         <source>Submitted to masternode, waiting in queue</source>
-        <translation type="unfinished"></translation>
+        <translation>Передано мастерноде, ожидание в очереди</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="429"/>
@@ -3222,12 +3236,12 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <location filename="../utilitydialog.cpp" line="130"/>
+        <location filename="../utilitydialog.cpp" line="204"/>
         <source>Sibcoin Core is shutting down...</source>
         <translation>&quot;Червонец&quot; выключается...</translation>
     </message>
     <message>
-        <location filename="../utilitydialog.cpp" line="131"/>
+        <location filename="../utilitydialog.cpp" line="205"/>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Не выключайте компьютер, пока это окно не исчезнет.</translation>
     </message>
@@ -3325,7 +3339,7 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="258"/>
         <source>The address the message was signed with (e.g. SwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес, которым было подписано сообщение (например, XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
@@ -4123,32 +4137,32 @@ https://www.transifex.com/projects/p/sibcoin/</translation>
         <translation>Экспортировать данные из вкладки в файл</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="232"/>
+        <location filename="../walletview.cpp" line="235"/>
         <source>Backup Wallet</source>
         <translation>Сделать резервную копию бумажника</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="233"/>
+        <location filename="../walletview.cpp" line="236"/>
         <source>Wallet Data (*.dat)</source>
         <translation>Данные бумажника (*.dat)</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="239"/>
+        <location filename="../walletview.cpp" line="242"/>
         <source>Backup Failed</source>
         <translation>Резервное копирование не удалось</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="239"/>
+        <location filename="../walletview.cpp" line="242"/>
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation>Произошла ошибка при сохранении данных бумажника в %1.</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="243"/>
+        <location filename="../walletview.cpp" line="246"/>
         <source>Backup Successful</source>
         <translation>Резервное копирование успешно завершено</translation>
     </message>
     <message>
-        <location filename="../walletview.cpp" line="243"/>
+        <location filename="../walletview.cpp" line="246"/>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>Данные бумажника были успешно сохранены в %1.</translation>
     </message>
